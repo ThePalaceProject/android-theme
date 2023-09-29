@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!-- Empty root style; for nesting. -->
+    <style name="Palace" />
+
+    <style name="Palace.ButtonText.Text" parent="">
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">@font/open_sans_regular</item>
+    </style>
+
+    <!-- The style for "Text buttons" -->
+    <!-- https://m2.material.io/components/buttons/android#text-button -->
+
+    <style name="Palace.ButtonText" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textAppearance">@style/Palace.ButtonText.Text</item>
+        <item name="android:textColor">@color/PalaceTextColor</item>
+        <item name="android:drawableTintMode">multiply</item>
+        <item name="android:drawableTint">@color/PalaceButtonDrawableColor</item>
+        <item name="android:scrollbars">none</item>
+    </style>
+
+    <style name="Palace.ButtonText.Small" parent="Palace.ButtonText">
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:drawablePadding">8dp</item>
+    </style>
+
+    <style name="Palace.ButtonText.Medium" parent="Palace.ButtonText">
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:drawablePadding">12dp</item>
+    </style>
+
+    <style name="Palace.ButtonText.Large" parent="Palace.ButtonText">
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:paddingLeft">24dp</item>
+        <item name="android:paddingRight">24dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:drawablePadding">16dp</item>
+    </style>
+
+    <!-- The style for "Contained buttons" -->
+    <!-- https://m2.material.io/components/buttons#contained-button -->
+
+    <style name="Palace.ButtonContained.Text" parent="">
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">@font/open_sans_regular</item>
+    </style>
+
+    <style name="Palace.ButtonContained.Overlay" parent="">
+        <item name="colorPrimary">@color/PalaceButtonContainedBackgroundColor</item>
+        <item name="colorOnPrimary">@color/PalaceButtonContainedDrawableColor</item>
+    </style>
+
+    <style name="Palace.Button.Contained" parent="Widget.MaterialComponents.Button">
+        <item name="materialThemeOverlay">@style/Palace.ButtonContained.Overlay</item>
+        <item name="android:textAppearance">@style/Palace.ButtonContained.Text</item>
+        <item name="android:textColor">@color/PalaceButtonContainedTextColor</item>
+        <item name="android:drawableTintMode">multiply</item>
+        <item name="android:drawableTint">@color/PalaceButtonContainedDrawableColor</item>
+        <item name="android:scrollbars">none</item>
+    </style>
+
+    <style name="Palace.Button.Contained.Small" parent="Palace.Button.Contained">
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:drawablePadding">8dp</item>
+    </style>
+
+    <style name="Palace.Button.Contained.Medium" parent="Palace.Button.Contained">
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:drawablePadding">12dp</item>
+    </style>
+
+    <style name="Palace.Button.Contained.Large" parent="Palace.Button.Contained">
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:paddingLeft">24dp</item>
+        <item name="android:paddingRight">24dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:drawablePadding">16dp</item>
+    </style>
+
+    <!-- The style for "Outlined buttons" -->
+    <!-- https://m2.material.io/components/buttons#outlined-button -->
+
+    <style name="Palace.ButtonOutlined.Text" parent="">
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">@font/open_sans_regular</item>
+    </style>
+
+    <style name="Palace.ButtonOutlined.Overlay" parent="">
+        <item name="colorPrimary">@color/PalaceButtonBackgroundColor</item>
+        <item name="colorOnPrimary">@color/PalaceButtonBackgroundColor</item>
+    </style>
+
+    <style name="Palace.Button.Outlined" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="materialThemeOverlay">@style/Palace.ButtonOutlined.Overlay</item>
+        <item name="android:textAppearance">@style/Palace.ButtonOutlined.Text</item>
+        <item name="android:textColor">@color/PalaceTextColor</item>
+        <item name="android:drawableTintMode">multiply</item>
+        <item name="android:drawableTint">@color/PalaceTextColor</item>
+        <item name="android:scrollbars">none</item>
+        <item name="strokeColor">@color/PalacePrimaryForegroundColor</item>
+        <item name="rippleColor">#cccccc</item>
+    </style>
+
+    <style name="Palace.Button.Outlined.Small" parent="Palace.Button.Outlined">
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:drawablePadding">8dp</item>
+    </style>
+
+    <style name="Palace.Button.Outlined.Medium" parent="Palace.Button.Outlined">
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:drawablePadding">12dp</item>
+    </style>
+
+    <style name="Palace.Button.Outlined.Large" parent="Palace.Button.Outlined">
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:paddingLeft">24dp</item>
+        <item name="android:paddingRight">24dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:drawablePadding">16dp</item>
+    </style>
+
+    <!-- The bottom navigation view. -->
+
+    <style name="Palace.BottomNavigationView" parent="Widget.MaterialComponents.BottomNavigationView.Colored">
+        <item name="colorPrimary">#ffffff</item>
+        <item name="backgroundTint">@color/PalaceScreenBackgroundColor</item>
+        <item name="itemTextColor">@color/PalaceTextColor</item>
+        <item name="itemIconTint">@color/PalaceTextColor</item>
+    </style>
+
+</resources>

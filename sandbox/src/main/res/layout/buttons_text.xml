@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:maxLines="1"
+                style="@style/Palace.Button.Contained.Small"
+                android:text="textSmall" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:maxLines="1"
+                style="@style/Palace.Button.Contained.Medium"
+                android:text="textMedium" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:maxLines="1"
+                style="@style/Palace.Button.Contained.Large"
+                android:text="textLarge" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:maxLines="1"
+                style="@style/Palace.Button.Contained.Small"
+                android:drawableLeft="@drawable/palace_create_24"
+                android:text="textSmallIconL" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:maxLines="1"
+                style="@style/Palace.Button.Contained.Medium"
+                android:drawableLeft="@drawable/palace_create_24"
+                android:text="textMediumIconL" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:maxLines="1"
+                style="@style/Palace.Button.Contained.Large"
+                android:drawableLeft="@drawable/palace_create_24"
+                android:text="textLargeIconL" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:maxLines="1"
+                style="@style/Palace.Button.Contained.Small"
+                android:drawableRight="@drawable/palace_cancel_24"
+                android:text="textSmallIconR" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:maxLines="1"
+                style="@style/Palace.Button.Contained.Medium"
+                android:drawableRight="@drawable/palace_cancel_24"
+                android:text="textMediumIconR" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:maxLines="1"
+                style="@style/Palace.Button.Contained.Large"
+                android:drawableRight="@drawable/palace_cancel_24"
+                android:text="textLargeIconR" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

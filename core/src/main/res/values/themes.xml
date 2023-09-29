@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+
+    <style name="PalaceTheme.WithActionBar" parent="Theme.Material3.DayNight">
+        <item name="android:windowBackground">@color/PalaceScreenBackgroundColor</item>
+        <item name="android:fontFamily">@font/open_sans_regular</item>
+
+        <!-- https://material.io/blog/android-material-theme-color -->
+        <item name="colorPrimary">@color/PalaceScreenBackgroundColor</item>
+        <item name="colorPrimaryVariant">@color/PalaceScreenBackgroundColor</item>
+        <item name="colorOnPrimary">@color/PalacePrimaryForegroundColor</item>
+        <item name="colorSurface">@color/PalaceScreenBackgroundColor</item>
+        <item name="colorSecondary">@color/PalaceScreenBackgroundColor</item>
+        <item name="colorSecondaryVariant">@color/PalaceScreenBackgroundColor</item>
+        <item name="colorOnSecondary">@color/PalacePrimaryForegroundColor</item>
+        <item name="colorOnBackground">@color/PalacePrimaryForegroundColor</item>
+        <item name="colorError">@color/PalaceError</item>
+        <item name="colorOnError">@color/PalaceScreenBackgroundColor</item>
+
+        <item name="android:buttonStyle">@style/Palace.Button.Outlined.Medium</item>
+        <item name="android:statusBarColor">@color/PalaceStatusBarColor</item>
+        <item name="bottomNavigationStyle">@style/Palace.BottomNavigationView</item>
+    </style>
+
+    <style name="PalaceTheme.WithoutActionBar" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/PalaceScreenBackgroundColor</item>
+        <item name="android:fontFamily">@font/open_sans_regular</item>
+
+        <!-- https://material.io/blog/android-material-theme-color -->
+        <item name="colorPrimary">@color/PalaceScreenBackgroundColor</item>
+        <item name="colorPrimaryVariant">@color/PalaceScreenBackgroundColor</item>
+        <item name="colorOnPrimary">@color/PalacePrimaryForegroundColor</item>
+        <item name="colorSurface">@color/PalaceScreenBackgroundColor</item>
+        <item name="colorSecondary">@color/PalaceScreenBackgroundColor</item>
+        <item name="colorSecondaryVariant">@color/PalaceScreenBackgroundColor</item>
+        <item name="colorOnSecondary">@color/PalacePrimaryForegroundColor</item>
+        <item name="colorOnBackground">@color/PalacePrimaryForegroundColor</item>
+        <item name="colorError">@color/PalaceError</item>
+        <item name="colorOnError">@color/PalaceScreenBackgroundColor</item>
+
+        <item name="android:buttonStyle">@style/Palace.Button.Outlined.Medium</item>
+        <item name="android:statusBarColor">@color/PalaceStatusBarColor</item>
+        <item name="bottomNavigationStyle">@style/Palace.BottomNavigationView</item>
+    </style>
+
+</resources>

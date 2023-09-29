@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--
+    This file maps Palace palette values to meaningful color values for night mode.
+-->
+
+<resources>
+    <color name="PalaceButtonBackgroundColor">@color/PalaceGrey0</color>
+    <color name="PalaceButtonBorderColor">@color/PalaceGrey3</color>
+    <color name="PalaceButtonContainedBackgroundColor">@color/PalaceGrey3</color>
+    <color name="PalaceButtonContainedDrawableColor">@color/PalaceGrey0</color>
+    <color name="PalaceButtonContainedTextColor">@color/PalaceGrey0</color>
+    <color name="PalaceButtonDrawableColor">@color/PalaceGrey3</color>
+    <color name="PalaceError">@color/PalaceRed2</color>
+    <color name="PalacePrimaryForegroundColor">@color/PalaceGrey3</color>
+    <color name="PalaceScreenBackgroundColor">@color/PalaceGrey0</color>
+    <color name="PalaceStatusBarColor">@color/PalaceGrey0</color>
+    <color name="PalaceTextColor">@color/PalaceGrey3</color>
+</resources>

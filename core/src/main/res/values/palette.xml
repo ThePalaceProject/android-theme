@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--
+The Palace palette as given in the UI kit. Note that this file only provides the raw color values
+and does not ascribe any semantics to the colors (such as "error", "confirm", etc).
+-->
+
+<resources>
+    <color name="PalaceBlue0">#363E99</color>
+    <color name="PalaceBlue1">#43BAE6</color>
+
+    <color name="PalaceGrey0">#000000</color>
+    <color name="PalageGrey1">#8E8E93</color>
+    <color name="PalaceGrey2">#E9E9EA</color>
+    <color name="PalaceGrey3">#FFFFFF</color>
+
+    <color name="PalaceGreen0">#1A5136</color>
+    <color name="PalaceGreen1">#32855D</color>
+    <color name="PalaceGreen2">#49B581</color>
+    <color name="PalaceGreen3">#DFFFEE</color>
+
+    <color name="PalaceRed0">#660A00</color>
+    <color name="PalaceRed1">#B0220C</color>
+    <color name="PalaceRed2">#F2533A</color>
+    <color name="PalaceRed3">#FFAFA2</color>
+</resources>
