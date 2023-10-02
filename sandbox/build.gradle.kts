@@ -29,6 +29,7 @@ dependencies {
     implementation(libs.androidx.datastore.preferences.core)
     implementation(libs.androidx.documentfile)
     implementation(libs.androidx.drawerlayout)
+    implementation(libs.androidx.dynamicanimation)
     implementation(libs.androidx.emoji2)
     implementation(libs.androidx.emoji2.views)
     implementation(libs.androidx.emoji2.views.helper)
@@ -71,11 +72,13 @@ dependencies {
     implementation(libs.androidx.transition)
     implementation(libs.androidx.transition.ktx)
     implementation(libs.androidx.vectordrawable)
+    implementation(libs.androidx.vectordrawable.animated)
     implementation(libs.androidx.versionedparcelable)
     implementation(libs.androidx.viewbinding)
     implementation(libs.androidx.viewpager)
     implementation(libs.androidx.viewpager2)
     implementation(libs.androidx.webkit)
+
     implementation(libs.google.material)
     implementation(libs.kotlin.stdlib)
 }

@@ -21,6 +21,8 @@ class SandboxActivity : AppCompatActivity(R.layout.sandbox) {
       ButtonsTextFragment()
     val progressFragment =
       ProgressFragment()
+    val otherFragment =
+      OtherFragment()
 
     if (savedInstanceState == null) {
       val fragmentTransaction: FragmentTransaction = this.supportFragmentManager.beginTransaction()
@@ -51,6 +53,11 @@ class SandboxActivity : AppCompatActivity(R.layout.sandbox) {
         R.id.navProgress -> {
           val fragmentTransaction: FragmentTransaction = fragmentManager.beginTransaction()
           fragmentTransaction.replace(R.id.sandboxFragmentContainer, progressFragment).commit()
+          true
+        }
+        R.id.navOther -> {
+          val fragmentTransaction: FragmentTransaction = fragmentManager.beginTransaction()
+          fragmentTransaction.replace(R.id.sandboxFragmentContainer, otherFragment).commit()
           true
         }
         else -> {

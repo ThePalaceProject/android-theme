@@ -19,7 +19,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
                 android:maxLines="1"
-                style="@style/Palace.Button.Contained.Small"
+                style="@style/Palace.ButtonText.Small"
                 android:text="textSmall" />
 
             <Button
@@ -27,7 +27,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
                 android:maxLines="1"
-                style="@style/Palace.Button.Contained.Medium"
+                style="@style/Palace.ButtonText.Medium"
                 android:text="textMedium" />
 
             <Button
@@ -35,7 +35,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
                 android:maxLines="1"
-                style="@style/Palace.Button.Contained.Large"
+                style="@style/Palace.ButtonText.Large"
                 android:text="textLarge" />
         </TableRow>
 
@@ -48,7 +48,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
                 android:maxLines="1"
-                style="@style/Palace.Button.Contained.Small"
+                style="@style/Palace.ButtonText.Small"
                 android:drawableLeft="@drawable/palace_create_24"
                 android:text="textSmallIconL" />
 
@@ -57,7 +57,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
                 android:maxLines="1"
-                style="@style/Palace.Button.Contained.Medium"
+                style="@style/Palace.ButtonText.Medium"
                 android:drawableLeft="@drawable/palace_create_24"
                 android:text="textMediumIconL" />
 
@@ -66,7 +66,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
                 android:maxLines="1"
-                style="@style/Palace.Button.Contained.Large"
+                style="@style/Palace.ButtonText.Large"
                 android:drawableLeft="@drawable/palace_create_24"
                 android:text="textLargeIconL" />
         </TableRow>
@@ -80,7 +80,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
                 android:maxLines="1"
-                style="@style/Palace.Button.Contained.Small"
+                style="@style/Palace.ButtonText.Small"
                 android:drawableRight="@drawable/palace_cancel_24"
                 android:text="textSmallIconR" />
 
@@ -89,7 +89,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
                 android:maxLines="1"
-                style="@style/Palace.Button.Contained.Medium"
+                style="@style/Palace.ButtonText.Medium"
                 android:drawableRight="@drawable/palace_cancel_24"
                 android:text="textMediumIconR" />
 
@@ -98,7 +98,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
                 android:maxLines="1"
-                style="@style/Palace.Button.Contained.Large"
+                style="@style/Palace.ButtonText.Large"
                 android:drawableRight="@drawable/palace_cancel_24"
                 android:text="textLargeIconR" />
         </TableRow>

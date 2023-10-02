@@ -11,9 +11,14 @@
     <color name="PalaceButtonContainedDrawableColor">@color/PalaceGrey0</color>
     <color name="PalaceButtonContainedTextColor">@color/PalaceGrey0</color>
     <color name="PalaceButtonDrawableColor">@color/PalaceGrey3</color>
+    <color name="PalaceDialogBackgroundColor">#202020</color>
     <color name="PalaceError">@color/PalaceRed2</color>
     <color name="PalacePrimaryForegroundColor">@color/PalaceGrey3</color>
     <color name="PalaceScreenBackgroundColor">@color/PalaceGrey0</color>
     <color name="PalaceStatusBarColor">@color/PalaceGrey0</color>
+    <color name="PalaceSwitchTrackColorUnchecked">#404040</color>
+    <color name="PalaceSwitchTrackColorChecked">@color/PalaceGrey3</color>
+    <color name="PalaceSwitchThumbColorUnchecked">@color/PalaceGrey2</color>
+    <color name="PalaceSwitchThumbColorChecked">@color/PalaceGrey0</color>
     <color name="PalaceTextColor">@color/PalaceGrey3</color>
 </resources>

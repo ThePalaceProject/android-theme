@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical">
+
+    <Switch
+        android:id="@+id/switch1"
+        android:padding="16dp"
+        android:layout_margin="16dp"
+        android:layout_width="256dp"
+        android:layout_height="32dp"
+        android:text="Switch" />
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/switch2"
+        android:padding="16dp"
+        android:layout_margin="16dp"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:text="SwitchMaterial" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switch3"
+        android:padding="16dp"
+        android:layout_margin="16dp"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:text="SwitchCompat" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:padding="16dp"
+        android:layout_margin="16dp"
+        android:layout_width="256dp"
+        android:layout_height="32dp"
+        android:text="CheckBox" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:padding="16dp"
+        android:layout_margin="16dp"
+        android:layout_width="256dp"
+        android:layout_height="32dp" />
+
+</LinearLayout>

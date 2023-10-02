@@ -2,8 +2,9 @@
 
 <resources>
 
-    <!-- Empty root style; for nesting. -->
+    <!-- Empty root styles; for nesting. -->
     <style name="Palace" />
+    <style name="Palace.Legacy"/>
 
     <style name="Palace.ButtonText.Text" parent="">
         <item name="android:textSize">12sp</item>
@@ -21,18 +22,24 @@
         <item name="materialThemeOverlay">@style/Palace.CircularProgressIndicator.Overlay</item>
     </style>
     <style name="Palace.CircularProgressIndicator.Overlay" parent="">
+        <item name="colorPrimary">@color/PalacePrimaryForegroundColor</item>
+    </style>
 
+    <style name="Palace.LinearProgressIndicator" parent="Widget.Material3.LinearProgressIndicator">
+        <item name="materialThemeOverlay">@style/Palace.LinearProgressIndicator.Overlay</item>
+    </style>
+    <style name="Palace.LinearProgressIndicator.Overlay" parent="">
+        <item name="colorPrimary">@color/PalacePrimaryForegroundColor</item>
     </style>
 
     <!-- The style for "Text buttons" -->
-    <!-- https://m2.material.io/components/buttons/android#text-button -->
-
+    <!-- https://github.com/material-components/material-components-android/blob/master/docs/components/Button.md#text-button -->
     <style name="Palace.ButtonText" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:drawableTint">@color/PalaceTextColor</item>
+        <item name="android:drawableTintMode">multiply</item>
+        <item name="android:scrollbars">none</item>
         <item name="android:textAppearance">@style/Palace.ButtonText.Text</item>
         <item name="android:textColor">@color/PalaceTextColor</item>
-        <item name="android:drawableTintMode">multiply</item>
-        <item name="android:drawableTint">@color/PalaceButtonDrawableColor</item>
-        <item name="android:scrollbars">none</item>
     </style>
 
     <style name="Palace.ButtonText.Small" parent="Palace.ButtonText">
@@ -60,19 +67,20 @@
     </style>
 
     <!-- The style for "Contained buttons" -->
-    <!-- https://m2.material.io/components/buttons#contained-button -->
-
+    <!-- https://github.com/material-components/material-components-android/blob/master/docs/components/Button.md#filled-button -->
     <style name="Palace.ButtonContained.Text" parent="">
         <item name="android:textSize">12sp</item>
         <item name="android:fontFamily">@font/open_sans_regular</item>
     </style>
 
-    <style name="Palace.Button.Contained" parent="Widget.MaterialComponents.Button">
+    <style name="Palace.Button.Contained" parent="Widget.Material3.Button.UnelevatedButton">
+        <item name="android:backgroundTint">@color/PalaceButtonContainedBackgroundColor</item>
         <item name="android:textAppearance">@style/Palace.ButtonContained.Text</item>
         <item name="android:textColor">@color/PalaceButtonContainedTextColor</item>
         <item name="android:drawableTintMode">multiply</item>
         <item name="android:drawableTint">@color/PalaceButtonContainedDrawableColor</item>
         <item name="android:scrollbars">none</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.Material3.Corner.Small</item>
     </style>
 
     <style name="Palace.Button.Contained.Small" parent="Palace.Button.Contained">
@@ -100,21 +108,21 @@
     </style>
 
     <!-- The style for "Outlined buttons" -->
-    <!-- https://m2.material.io/components/buttons#outlined-button -->
-
-    <style name="Palace.ButtonOutlined.Text" parent="">
+    <!-- https://github.com/material-components/material-components-android/blob/master/docs/components/Button.md#outlined-button -->
+    <style name="Palace.Button.Outlined.Text" parent="">
         <item name="android:textSize">12sp</item>
         <item name="android:fontFamily">@font/open_sans_regular</item>
     </style>
 
-    <style name="Palace.Button.Outlined" parent="Widget.MaterialComponents.Button.OutlinedButton">
-        <item name="android:textAppearance">@style/Palace.ButtonOutlined.Text</item>
+    <style name="Palace.Button.Outlined" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:textAppearance">@style/Palace.Button.Outlined.Text</item>
         <item name="android:textColor">@color/PalaceTextColor</item>
         <item name="android:drawableTintMode">multiply</item>
         <item name="android:drawableTint">@color/PalaceTextColor</item>
         <item name="android:scrollbars">none</item>
         <item name="strokeColor">@color/PalacePrimaryForegroundColor</item>
         <item name="rippleColor">#cccccc</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.Material3.Corner.Small</item>
     </style>
 
     <style name="Palace.Button.Outlined.Small" parent="Palace.Button.Outlined">
@@ -142,7 +150,6 @@
     </style>
 
     <!-- The bottom navigation view. -->
-
     <style name="Palace.BottomNavigationView" parent="Widget.Material3.BottomNavigationView">
         <item name="materialThemeOverlay">@style/Palace.BottomNavigationView.Overlay</item>
         <item name="backgroundTint">@color/PalaceScreenBackgroundColor</item>
@@ -167,7 +174,6 @@
     </style>
 
     <!-- The style for the toolbar. -->
-
     <style name="Palace.Toolbar" parent="Widget.MaterialComponents.Toolbar.Primary">
         <item name="materialThemeOverlay">@style/Palace.Toolbar.Overlay</item>
         <item name="colorControlNormal">@color/PalaceTextColor</item>
@@ -181,14 +187,35 @@
     </style>
 
     <!-- Dialogs. -->
-
     <style name="Palace.MaterialAlertDialog.Overlay" parent="ThemeOverlay.Material3.MaterialAlertDialog">
         <item name="alertDialogStyle">@style/Palace.MaterialAlertDialog</item>
-        <item name="colorSurface">@color/PalaceScreenBackgroundColor</item>
+        <item name="colorSurface">@color/PalaceDialogBackgroundColor</item>
+        <item name="colorOnSurface">@color/PalaceTextColor</item>
+        <item name="buttonBarPositiveButtonStyle">@style/Palace.MaterialAlertDialog.Button</item>
+        <item name="buttonBarNegativeButtonStyle">@style/Palace.MaterialAlertDialog.Button</item>
     </style>
 
     <style name="Palace.MaterialAlertDialog" parent="MaterialAlertDialog.Material3">
         <item name="shapeAppearance">@style/ShapeAppearance.Material3.SmallComponent</item>
+    </style>
+
+    <style name="Palace.MaterialAlertDialog.Button" parent="Widget.Material3.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/PalaceTextColor</item>
+    </style>
+
+    <!-- Checkboxes. -->
+    <style name="Palace.Checkbox" parent="Widget.Material3.CompoundButton.CheckBox">
+        <item name="materialThemeOverlay">@style/Palace.Checkbox.Overlay</item>
+    </style>
+
+    <style name="Palace.Checkbox.Overlay" parent="">
+
+    </style>
+
+    <!-- Switches. -->
+    <style name="Palace.Switch" parent="Widget.Material3.CompoundButton.MaterialSwitch">
+        <item name="trackTint">@color/palace_switch_track</item>
+        <item name="thumbTint">@color/palace_switch_thumb</item>
     </style>
 
 </resources>

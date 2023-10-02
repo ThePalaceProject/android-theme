@@ -22,4 +22,9 @@
         android:icon="@drawable/baseline_access_time_24"
         android:title="Progress" />
 
+    <item
+        android:id="@+id/navOther"
+        android:icon="@drawable/baseline_access_time_24"
+        android:title="Other" />
+
 </menu>
