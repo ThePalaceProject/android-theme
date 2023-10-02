@@ -24,33 +24,33 @@ class SandboxActivity : AppCompatActivity(R.layout.sandbox) {
 
     if (savedInstanceState == null) {
       val fragmentTransaction: FragmentTransaction = this.supportFragmentManager.beginTransaction()
-      fragmentTransaction.replace(R.id.fragmentContainer, buttonsContainedFragment).commit()
+      fragmentTransaction.replace(R.id.sandboxFragmentContainer, buttonsContainedFragment).commit()
     }
 
     this.bottomNavigationView =
-      this.findViewById(R.id.bottomNavigationView)
+      this.findViewById(R.id.sandboxBottomNavigation)
 
     this.bottomNavigationView.setOnItemSelectedListener { item ->
       val fragmentManager: FragmentManager = this.supportFragmentManager
       return@setOnItemSelectedListener when (item.itemId) {
         R.id.navButtonsOutlined -> {
           val fragmentTransaction: FragmentTransaction = fragmentManager.beginTransaction()
-          fragmentTransaction.replace(R.id.fragmentContainer, buttonsOutlinedFragment).commit()
+          fragmentTransaction.replace(R.id.sandboxFragmentContainer, buttonsOutlinedFragment).commit()
           true
         }
         R.id.navButtonsContained -> {
           val fragmentTransaction: FragmentTransaction = fragmentManager.beginTransaction()
-          fragmentTransaction.replace(R.id.fragmentContainer, buttonsContainedFragment).commit()
+          fragmentTransaction.replace(R.id.sandboxFragmentContainer, buttonsContainedFragment).commit()
           true
         }
         R.id.navButtonsText -> {
           val fragmentTransaction: FragmentTransaction = fragmentManager.beginTransaction()
-          fragmentTransaction.replace(R.id.fragmentContainer, buttonsTextFragment).commit()
+          fragmentTransaction.replace(R.id.sandboxFragmentContainer, buttonsTextFragment).commit()
           true
         }
         R.id.navProgress -> {
           val fragmentTransaction: FragmentTransaction = fragmentManager.beginTransaction()
-          fragmentTransaction.replace(R.id.fragmentContainer, progressFragment).commit()
+          fragmentTransaction.replace(R.id.sandboxFragmentContainer, progressFragment).commit()
           true
         }
         else -> {

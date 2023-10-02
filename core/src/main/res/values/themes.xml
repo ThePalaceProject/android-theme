@@ -6,42 +6,50 @@
         <item name="android:windowBackground">@color/PalaceScreenBackgroundColor</item>
         <item name="android:fontFamily">@font/open_sans_regular</item>
 
-        <!-- https://material.io/blog/android-material-theme-color -->
-        <item name="colorPrimary">@color/PalaceScreenBackgroundColor</item>
-        <item name="colorPrimaryVariant">@color/PalaceScreenBackgroundColor</item>
-        <item name="colorOnPrimary">@color/PalacePrimaryForegroundColor</item>
-        <item name="colorSurface">@color/PalaceScreenBackgroundColor</item>
-        <item name="colorSecondary">@color/PalaceScreenBackgroundColor</item>
-        <item name="colorSecondaryVariant">@color/PalaceScreenBackgroundColor</item>
-        <item name="colorOnSecondary">@color/PalacePrimaryForegroundColor</item>
-        <item name="colorOnBackground">@color/PalacePrimaryForegroundColor</item>
+        <!-- https://github.com/material-components/material-components-android/blob/master/docs/theming/Color.md#using-the-color-theming-system -->
+        <item name="colorPrimary">@color/PalaceGrey0</item>
+        <item name="colorPrimaryVariant">@color/PalaceGrey0</item>
+        <item name="colorOnPrimary">@color/PalaceGrey3</item>
+        <item name="colorSurface">@color/PalaceGrey3</item>
+        <item name="colorSecondary">@color/PalaceGrey3</item>
+        <item name="colorSecondaryVariant">@color/PalaceGrey3</item>
+        <item name="colorOnSecondary">@color/PalaceGrey0</item>
+        <item name="colorOnBackground">@color/PalaceGrey0</item>
         <item name="colorError">@color/PalaceError</item>
-        <item name="colorOnError">@color/PalaceScreenBackgroundColor</item>
+        <item name="colorOnError">@color/PalaceGrey3</item>
 
         <item name="android:buttonStyle">@style/Palace.Button.Outlined.Medium</item>
+        <item name="android:progressBarStyle">@style/Palace.CircularProgressIndicator</item>
         <item name="android:statusBarColor">@color/PalaceStatusBarColor</item>
+        <item name="android:textViewStyle">@style/Palace.TextViewStyle</item>
         <item name="bottomNavigationStyle">@style/Palace.BottomNavigationView</item>
+        <item name="circularProgressIndicatorStyle">@style/Palace.CircularProgressIndicator</item>
+        <item name="toolbarStyle">@style/Palace.Toolbar</item>
     </style>
 
     <style name="PalaceTheme.WithoutActionBar" parent="Theme.Material3.DayNight.NoActionBar">
         <item name="android:windowBackground">@color/PalaceScreenBackgroundColor</item>
         <item name="android:fontFamily">@font/open_sans_regular</item>
 
-        <!-- https://material.io/blog/android-material-theme-color -->
-        <item name="colorPrimary">@color/PalaceScreenBackgroundColor</item>
-        <item name="colorPrimaryVariant">@color/PalaceScreenBackgroundColor</item>
-        <item name="colorOnPrimary">@color/PalacePrimaryForegroundColor</item>
-        <item name="colorSurface">@color/PalaceScreenBackgroundColor</item>
-        <item name="colorSecondary">@color/PalaceScreenBackgroundColor</item>
-        <item name="colorSecondaryVariant">@color/PalaceScreenBackgroundColor</item>
-        <item name="colorOnSecondary">@color/PalacePrimaryForegroundColor</item>
-        <item name="colorOnBackground">@color/PalacePrimaryForegroundColor</item>
+        <!-- https://github.com/material-components/material-components-android/blob/master/docs/theming/Color.md#using-the-color-theming-system -->
+        <item name="colorPrimary">@color/PalaceGrey0</item>
+        <item name="colorPrimaryVariant">@color/PalaceGrey0</item>
+        <item name="colorOnPrimary">@color/PalaceGrey3</item>
+        <item name="colorSurface">@color/PalaceGrey3</item>
+        <item name="colorSecondary">@color/PalaceGrey3</item>
+        <item name="colorSecondaryVariant">@color/PalaceGrey3</item>
+        <item name="colorOnSecondary">@color/PalaceGrey0</item>
+        <item name="colorOnBackground">@color/PalaceGrey0</item>
         <item name="colorError">@color/PalaceError</item>
-        <item name="colorOnError">@color/PalaceScreenBackgroundColor</item>
+        <item name="colorOnError">@color/PalaceGrey3</item>
 
         <item name="android:buttonStyle">@style/Palace.Button.Outlined.Medium</item>
+        <item name="android:progressBarStyle">@style/Palace.CircularProgressIndicator</item>
         <item name="android:statusBarColor">@color/PalaceStatusBarColor</item>
+        <item name="android:textViewStyle">@style/Palace.TextViewStyle</item>
         <item name="bottomNavigationStyle">@style/Palace.BottomNavigationView</item>
+        <item name="circularProgressIndicatorStyle">@style/Palace.CircularProgressIndicator</item>
+        <item name="toolbarStyle">@style/Palace.Toolbar</item>
     </style>
 
 </resources>

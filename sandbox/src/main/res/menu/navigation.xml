@@ -5,17 +5,17 @@
     <item
         android:id="@+id/navButtonsContained"
         android:icon="@drawable/baseline_smart_button_24"
-        android:title="Buttons (Contained)" />
+        android:title="Contained" />
 
     <item
         android:id="@+id/navButtonsOutlined"
         android:icon="@drawable/baseline_smart_button_24"
-        android:title="Buttons (Outlined)" />
+        android:title="Outlined" />
 
     <item
         android:id="@+id/navButtonsText"
         android:icon="@drawable/baseline_smart_button_24"
-        android:title="Buttons (Text)" />
+        android:title="Text" />
 
     <item
         android:id="@+id/navProgress"

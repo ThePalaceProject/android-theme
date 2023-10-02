@@ -1,12 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <resources xmlns:app="http://schemas.android.com/apk/res-auto">
+
     <!-- Empty root style; for nesting. -->
     <style name="Palace" />
 
     <style name="Palace.ButtonText.Text" parent="">
         <item name="android:textSize">12sp</item>
         <item name="android:fontFamily">@font/open_sans_regular</item>
+    </style>
+
+    <!-- Attempt to set a font globally. -->
+    <style name="Palace.TextViewStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/open_sans_regular</item>
+    </style>
+
+    <!-- The style for progress indicators. -->
+    <!-- https://github.com/material-components/material-components-android/blob/master/docs/components/ProgressIndicator.md -->
+    <style name="Palace.CircularProgressIndicator" parent="Widget.Material3.CircularProgressIndicator">
+        <item name="materialThemeOverlay">@style/Palace.CircularProgressIndicator.Overlay</item>
+    </style>
+    <style name="Palace.CircularProgressIndicator.Overlay" parent="">
+
     </style>
 
     <!-- The style for "Text buttons" -->
@@ -52,13 +67,7 @@
         <item name="android:fontFamily">@font/open_sans_regular</item>
     </style>
 
-    <style name="Palace.ButtonContained.Overlay" parent="">
-        <item name="colorPrimary">@color/PalaceButtonContainedBackgroundColor</item>
-        <item name="colorOnPrimary">@color/PalaceButtonContainedDrawableColor</item>
-    </style>
-
     <style name="Palace.Button.Contained" parent="Widget.MaterialComponents.Button">
-        <item name="materialThemeOverlay">@style/Palace.ButtonContained.Overlay</item>
         <item name="android:textAppearance">@style/Palace.ButtonContained.Text</item>
         <item name="android:textColor">@color/PalaceButtonContainedTextColor</item>
         <item name="android:drawableTintMode">multiply</item>
@@ -98,13 +107,7 @@
         <item name="android:fontFamily">@font/open_sans_regular</item>
     </style>
 
-    <style name="Palace.ButtonOutlined.Overlay" parent="">
-        <item name="colorPrimary">@color/PalaceButtonBackgroundColor</item>
-        <item name="colorOnPrimary">@color/PalaceButtonBackgroundColor</item>
-    </style>
-
     <style name="Palace.Button.Outlined" parent="Widget.MaterialComponents.Button.OutlinedButton">
-        <item name="materialThemeOverlay">@style/Palace.ButtonOutlined.Overlay</item>
         <item name="android:textAppearance">@style/Palace.ButtonOutlined.Text</item>
         <item name="android:textColor">@color/PalaceTextColor</item>
         <item name="android:drawableTintMode">multiply</item>
@@ -140,11 +143,41 @@
 
     <!-- The bottom navigation view. -->
 
-    <style name="Palace.BottomNavigationView" parent="Widget.MaterialComponents.BottomNavigationView.Colored">
-        <item name="colorPrimary">#ffffff</item>
+    <style name="Palace.BottomNavigationView" parent="Widget.Material3.BottomNavigationView">
+        <item name="materialThemeOverlay">@style/Palace.BottomNavigationView.Overlay</item>
         <item name="backgroundTint">@color/PalaceScreenBackgroundColor</item>
-        <item name="itemTextColor">@color/PalaceTextColor</item>
-        <item name="itemIconTint">@color/PalaceTextColor</item>
+        <item name="labelVisibilityMode">labeled</item>
+        <item name="itemActiveIndicatorStyle">@style/Palace.BottomNavigationView.Indicator</item>
+        <item name="itemTextAppearanceActive">@style/Palace.BottomNavigationView.TextActive</item>
+    </style>
+
+    <style name="Palace.BottomNavigationView.TextActive" parent="">
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="Palace.BottomNavigationView.Overlay" parent="">
+        <item name="colorSurface">@color/PalaceTextColor</item>
+    </style>
+
+    <style name="Palace.BottomNavigationView.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/PalaceTextColor</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.Material3.Corner.None</item>
+        <item name="android:width">0dp</item>
+        <item name="android:height">0dp</item>
+    </style>
+
+    <!-- The style for the toolbar. -->
+
+    <style name="Palace.Toolbar" parent="Widget.MaterialComponents.Toolbar.Primary">
+        <item name="materialThemeOverlay">@style/Palace.Toolbar.Overlay</item>
+        <item name="colorControlNormal">@color/PalaceTextColor</item>
+    </style>
+
+    <style name="Palace.Toolbar.Overlay" parent="">
+        <item name="colorPrimary">@color/PalaceScreenBackgroundColor</item>
+        <item name="colorPrimaryVariant">@color/PalaceScreenBackgroundColor</item>
+        <item name="colorOnPrimary">@color/PalaceTextColor</item>
+        <item name="colorControlNormal">@color/PalaceTextColor</item>
     </style>
 
 </resources>
