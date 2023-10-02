@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<resources xmlns:app="http://schemas.android.com/apk/res-auto">
+<resources>
 
     <!-- Empty root style; for nesting. -->
     <style name="Palace" />
@@ -178,6 +178,17 @@
         <item name="colorPrimaryVariant">@color/PalaceScreenBackgroundColor</item>
         <item name="colorOnPrimary">@color/PalaceTextColor</item>
         <item name="colorControlNormal">@color/PalaceTextColor</item>
+    </style>
+
+    <!-- Dialogs. -->
+
+    <style name="Palace.MaterialAlertDialog.Overlay" parent="ThemeOverlay.Material3.MaterialAlertDialog">
+        <item name="alertDialogStyle">@style/Palace.MaterialAlertDialog</item>
+        <item name="colorSurface">@color/PalaceScreenBackgroundColor</item>
+    </style>
+
+    <style name="Palace.MaterialAlertDialog" parent="MaterialAlertDialog.Material3">
+        <item name="shapeAppearance">@style/ShapeAppearance.Material3.SmallComponent</item>
     </style>
 
 </resources>

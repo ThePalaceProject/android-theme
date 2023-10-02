@@ -24,6 +24,7 @@
         <item name="android:textViewStyle">@style/Palace.TextViewStyle</item>
         <item name="bottomNavigationStyle">@style/Palace.BottomNavigationView</item>
         <item name="circularProgressIndicatorStyle">@style/Palace.CircularProgressIndicator</item>
+        <item name="materialAlertDialogTheme">@style/Palace.MaterialAlertDialog.Overlay</item>
         <item name="toolbarStyle">@style/Palace.Toolbar</item>
     </style>
 
@@ -49,6 +50,7 @@
         <item name="android:textViewStyle">@style/Palace.TextViewStyle</item>
         <item name="bottomNavigationStyle">@style/Palace.BottomNavigationView</item>
         <item name="circularProgressIndicatorStyle">@style/Palace.CircularProgressIndicator</item>
+        <item name="materialAlertDialogTheme">@style/Palace.MaterialAlertDialog.Overlay</item>
         <item name="toolbarStyle">@style/Palace.Toolbar</item>
     </style>
 
