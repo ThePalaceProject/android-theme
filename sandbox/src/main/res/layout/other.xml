@@ -32,10 +32,10 @@
 
     <CheckBox
         android:id="@+id/checkBox"
-        android:padding="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_margin="16dp"
-        android:layout_width="256dp"
-        android:layout_height="32dp"
+        android:padding="16dp"
         android:text="CheckBox" />
 
     <SeekBar
