@@ -1,0 +1,34 @@
+#
+# Android Studio 2.2.3 Defaults
+#
+
+**/build
+*.iml
+.DS_Store
+.externalNativeBuild
+.gradle
+.idea
+/captures
+/local.properties
+
+# Ignore .so files
+**/jniLibs
+
+# Certificates and api(Keys)
+*.jks
+secrets.conf
+ReaderClientCert.sig
+LCP/*
+
+# Backup files
+*~
+
+# Misc
+simplified-tests-sandbox/src/main/*
+.env
+
+# deprecated
+cardcreator.conf
+overdrive.json
+feedbooks.conf
+ktlint.jar
