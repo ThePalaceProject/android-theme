@@ -2,14 +2,28 @@
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <application>
+    <application
+        android:icon="@drawable/ic_launcher_foreground"
+        android:label="PalaceThemeSandbox">
         <activity
             android:name="org.thepalaceproject.theme.sandbox.SandboxActivity"
-            android:contentDescription="Sandbox"
-            android:launchMode="singleTop"
+            android:contentDescription="PalaceThemeSandbox"
             android:exported="true"
-            android:theme="@style/PalaceTheme.WithoutActionBar"
-            android:label="Sandbox">
+            android:launchMode="singleTop"
+            android:theme="@style/PalaceTheme.WithoutActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="org.thepalaceproject.theme.sandbox.SandboxCompatActivity"
+            android:contentDescription="PalaceThemeCompatSandbox"
+            android:exported="true"
+            android:label="PalaceThemeCompatSandbox"
+            android:launchMode="singleTop"
+            android:theme="@style/PalaceTheme.WithoutActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />

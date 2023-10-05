@@ -13,12 +13,13 @@
     <color name="PalaceButtonDrawableColor">@color/PalaceGrey0</color>
     <color name="PalaceDialogBackgroundColor">@color/PalaceGrey3</color>
     <color name="PalaceError">@color/PalaceRed2</color>
+    <color name="PalaceMenuBackgroundColor">@color/PalaceGrey3</color>
     <color name="PalacePrimaryForegroundColor">@color/PalaceGrey0</color>
     <color name="PalaceScreenBackgroundColor">@color/PalaceGrey3</color>
     <color name="PalaceStatusBarColor">@color/PalaceGrey0</color>
-    <color name="PalaceSwitchTrackColorUnchecked">@color/PalaceGrey2</color>
-    <color name="PalaceSwitchTrackColorChecked">@color/PalaceGrey0</color>
-    <color name="PalaceSwitchThumbColorUnchecked">@color/PalaceGrey0</color>
     <color name="PalaceSwitchThumbColorChecked">@color/PalaceGrey3</color>
+    <color name="PalaceSwitchThumbColorUnchecked">@color/PalaceGrey0</color>
+    <color name="PalaceSwitchTrackColorChecked">@color/PalaceGrey0</color>
+    <color name="PalaceSwitchTrackColorUnchecked">@color/PalaceGrey2</color>
     <color name="PalaceTextColor">@color/PalaceGrey0</color>
 </resources>

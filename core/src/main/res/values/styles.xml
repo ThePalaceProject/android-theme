@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
     <!-- Empty root styles; for nesting. -->
     <style name="Palace" />
-    <style name="Palace.Legacy"/>
+
+    <style name="Palace.Legacy" />
 
     <style name="Palace.ButtonText.Text" parent="">
         <item name="android:textSize">12sp</item>
@@ -21,6 +22,7 @@
     <style name="Palace.CircularProgressIndicator" parent="Widget.Material3.CircularProgressIndicator">
         <item name="materialThemeOverlay">@style/Palace.CircularProgressIndicator.Overlay</item>
     </style>
+
     <style name="Palace.CircularProgressIndicator.Overlay" parent="">
         <item name="colorPrimary">@color/PalacePrimaryForegroundColor</item>
     </style>
@@ -28,6 +30,7 @@
     <style name="Palace.LinearProgressIndicator" parent="Widget.Material3.LinearProgressIndicator">
         <item name="materialThemeOverlay">@style/Palace.LinearProgressIndicator.Overlay</item>
     </style>
+
     <style name="Palace.LinearProgressIndicator.Overlay" parent="">
         <item name="colorPrimary">@color/PalacePrimaryForegroundColor</item>
     </style>
@@ -216,6 +219,73 @@
     <style name="Palace.Switch" parent="Widget.Material3.CompoundButton.MaterialSwitch">
         <item name="trackTint">@color/palace_switch_track</item>
         <item name="thumbTint">@color/palace_switch_thumb</item>
+    </style>
+
+    <!--
+        Legacy action bar.
+
+        Note: There are some strange things happening in this theme. When the application
+        is using a Material 3 based theme, it seems that any legacy AppCompat toolbar class
+        (ie. androidx.appcompat.widget.Toolbar, as opposed to the modern
+        com.google.android.material.appbar.MaterialToolbar) will automatically try to
+        read from the Widget.MaterialComponents.Toolbar.Primary style definitions. Unfortunately,
+        in an application that uses _both_ the modern and the old toolbars, these definitions will
+        be effectively broken for either one of the toolbar classes, because they'll be missing
+        important definitions like "colorOnPrimary" that didn't exist when the AppCompat themes
+        were first created.
+
+        Rather than try to mash all of the required definitions into one theme class, we simply
+        require that applications using the old AppCompat toolbar specify that they depend on
+        this Palace.Legacy.ToolbarTheme element explicitly. This style is configured such that
+        the toolbars will work correctly even when running on a Material 3 theme.
+
+        This can all go away when code is using the MaterialToolbar class everywhere.
+    -->
+    <style name="Palace.Legacy.ToolbarTheme" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="titleTextAppearance">@style/Palace.Legacy.ToolbarTitle</item>
+        <item name="subtitleTextAppearance">@style/Palace.Legacy.ToolbarSubtitle</item>
+        <item name="actionMenuTextColor">@color/PalaceTextColor</item>
+
+        <item name="popupTheme">@style/Palace.Legacy.ToolbarPopupTheme</item>
+
+        <!-- Tints the input fields like checkboxes and text fields -->
+        <item name="colorAccent">@color/PalaceTextColor</item>
+        <!-- Icons. -->
+        <item name="colorControlNormal">@color/PalaceTextColor</item>
+        <!-- Applies to views in their activated state (i.e checked or switches) -->
+        <item name="colorControlActivated">@color/PalaceTextColor</item>
+        <!-- Applied to framework control highlights (i.e ripples or list selectors) -->
+        <item name="colorControlHighlight">@color/PalaceTextColor</item>
+
+        <item name="colorOnPrimary">@color/PalaceTextColor</item>
+        <item name="colorPrimary">@color/PalaceScreenBackgroundColor</item>
+        <item name="colorPrimaryDark">@color/PalaceScreenBackgroundColor</item>
+        <item name="colorPrimaryVariant">@color/PalaceScreenBackgroundColor</item>
+    </style>
+
+    <style name="Palace.Legacy.ToolbarTitle" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textSize">21sp</item>
+        <item name="android:fontFamily">@font/open_sans_regular</item>
+    </style>
+    <style name="Palace.Legacy.ToolbarSubtitle" parent="TextAppearance.AppCompat.Widget.ActionBar.Subtitle">
+        <item name="android:fontFamily">@font/open_sans_regular</item>
+        <item name="android:textSize" tools:ignore="SpUsage">12dp</item>
+    </style>
+    <style name="Palace.Legacy.ToolbarPopupTheme" parent="ThemeOverlay.MaterialComponents.Toolbar.Popup.Primary">
+        <item name="colorSurface">@color/PalaceDialogBackgroundColor</item>
+
+        <!-- The colorPrimary attribute mildly tints the menu. I have no idea why anyone would
+             want this. -->
+        <item name="colorPrimary">@color/PalaceScreenBackgroundColor</item>
+
+        <!-- In these legacy components, the primary text color controls the text color. -->
+        <item name="android:textColorPrimary">@color/PalaceTextColor</item>
+
+        <!-- Proof that none of the normal attributes control the text color. -->
+        <item name="colorOnPrimary">#ff00ff</item>
+        <item name="colorControlNormal">#ff00ff</item>
+        <item name="colorOnSurface">#ff00ff</item>
+        <item name="actionMenuTextColor">#ff00ff</item>
     </style>
 
 </resources>
