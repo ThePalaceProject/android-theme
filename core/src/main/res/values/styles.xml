@@ -232,6 +232,16 @@
         <item name="colorOnSurface">@color/PalaceTextColor</item>
     </style>
 
+    <!-- Search view. -->
+    <style name="Palace.SearchView" parent="Widget.Material3.SearchView">
+        <item name="materialThemeOverlay">@style/Palace.SearchView.Overlay</item>
+    </style>
+
+    <style name="Palace.SearchView.Overlay" parent="ThemeOverlay.Material3.Search">
+        <item name="colorControlNormal">#ff0000</item>
+        <item name="android:textColor">#ff0000</item>
+    </style>
+
     <!--
         Legacy action bar.
 

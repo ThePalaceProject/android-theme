@@ -29,6 +29,7 @@
         <item name="circularProgressIndicatorStyle">@style/Palace.CircularProgressIndicator</item>
         <item name="linearProgressIndicatorStyle">@style/Palace.LinearProgressIndicator</item>
         <item name="materialAlertDialogTheme">@style/Palace.MaterialAlertDialog.Overlay</item>
+        <item name="searchViewStyle">@style/Palace.SearchView</item>
         <item name="switchStyle">@style/Palace.Switch</item>
         <item name="tabStyle">@style/Palace.TabLayout</item>
         <item name="toolbarStyle">@style/Palace.Toolbar</item>
@@ -61,6 +62,7 @@
         <item name="circularProgressIndicatorStyle">@style/Palace.CircularProgressIndicator</item>
         <item name="linearProgressIndicatorStyle">@style/Palace.LinearProgressIndicator</item>
         <item name="materialAlertDialogTheme">@style/Palace.MaterialAlertDialog.Overlay</item>
+        <item name="searchViewStyle">@style/Palace.SearchView</item>
         <item name="switchStyle">@style/Palace.Switch</item>
         <item name="tabStyle">@style/Palace.TabLayout</item>
         <item name="toolbarStyle">@style/Palace.Toolbar</item>
