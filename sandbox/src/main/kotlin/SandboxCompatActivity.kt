@@ -19,10 +19,10 @@ class SandboxCompatActivity : AppCompatActivity(R.layout.sandbox_compat) {
       ButtonsContainedFragment()
     val buttonsTextFragment =
       ButtonsTextFragment()
-    val progressFragment =
-      ProgressFragment()
     val otherFragment =
       OtherFragment()
+    val tabsFragment =
+      TabsFragment()
 
     if (savedInstanceState == null) {
       val fragmentTransaction: FragmentTransaction = this.supportFragmentManager.beginTransaction()
@@ -50,14 +50,14 @@ class SandboxCompatActivity : AppCompatActivity(R.layout.sandbox_compat) {
           fragmentTransaction.replace(R.id.sandboxFragmentContainer, buttonsTextFragment).commit()
           true
         }
-        R.id.navProgress -> {
-          val fragmentTransaction: FragmentTransaction = fragmentManager.beginTransaction()
-          fragmentTransaction.replace(R.id.sandboxFragmentContainer, progressFragment).commit()
-          true
-        }
         R.id.navOther -> {
           val fragmentTransaction: FragmentTransaction = fragmentManager.beginTransaction()
           fragmentTransaction.replace(R.id.sandboxFragmentContainer, otherFragment).commit()
+          true
+        }
+        R.id.navTabs -> {
+          val fragmentTransaction: FragmentTransaction = fragmentManager.beginTransaction()
+          fragmentTransaction.replace(R.id.sandboxFragmentContainer, tabsFragment).commit()
           true
         }
         else -> {

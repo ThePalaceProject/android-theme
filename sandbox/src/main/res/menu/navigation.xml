@@ -18,13 +18,13 @@
         android:title="Text" />
 
     <item
-        android:id="@+id/navProgress"
-        android:icon="@drawable/baseline_access_time_24"
-        android:title="Progress" />
-
-    <item
         android:id="@+id/navOther"
         android:icon="@drawable/baseline_access_time_24"
         android:title="Other" />
+
+    <item
+        android:id="@+id/navTabs"
+        android:icon="@drawable/baseline_table_chart_24"
+        android:title="Tabs" />
 
 </menu>

@@ -221,6 +221,17 @@
         <item name="thumbTint">@color/palace_switch_thumb</item>
     </style>
 
+    <!-- Tabs. -->
+    <style name="Palace.TabLayout" parent="Widget.Material3.TabLayout">
+        <item name="materialThemeOverlay">@style/Palace.TabLayout.Overlay</item>
+    </style>
+
+    <style name="Palace.TabLayout.Overlay" parent="">
+        <item name="colorPrimary">@color/PalaceTextColor</item>
+        <item name="colorSurface">@color/PalaceScreenBackgroundColor</item>
+        <item name="colorOnSurface">@color/PalaceTextColor</item>
+    </style>
+
     <!--
         Legacy action bar.
 
@@ -267,10 +278,12 @@
         <item name="android:textSize">21sp</item>
         <item name="android:fontFamily">@font/open_sans_regular</item>
     </style>
+
     <style name="Palace.Legacy.ToolbarSubtitle" parent="TextAppearance.AppCompat.Widget.ActionBar.Subtitle">
         <item name="android:fontFamily">@font/open_sans_regular</item>
         <item name="android:textSize" tools:ignore="SpUsage">12dp</item>
     </style>
+
     <style name="Palace.Legacy.ToolbarPopupTheme" parent="ThemeOverlay.MaterialComponents.Toolbar.Popup.Primary">
         <item name="colorSurface">@color/PalaceDialogBackgroundColor</item>
 

@@ -30,6 +30,7 @@
         <item name="linearProgressIndicatorStyle">@style/Palace.LinearProgressIndicator</item>
         <item name="materialAlertDialogTheme">@style/Palace.MaterialAlertDialog.Overlay</item>
         <item name="switchStyle">@style/Palace.Switch</item>
+        <item name="tabStyle">@style/Palace.TabLayout</item>
         <item name="toolbarStyle">@style/Palace.Toolbar</item>
     </style>
 
@@ -61,6 +62,7 @@
         <item name="linearProgressIndicatorStyle">@style/Palace.LinearProgressIndicator</item>
         <item name="materialAlertDialogTheme">@style/Palace.MaterialAlertDialog.Overlay</item>
         <item name="switchStyle">@style/Palace.Switch</item>
+        <item name="tabStyle">@style/Palace.TabLayout</item>
         <item name="toolbarStyle">@style/Palace.Toolbar</item>
     </style>
 
