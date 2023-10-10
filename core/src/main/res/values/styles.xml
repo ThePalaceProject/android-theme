@@ -238,8 +238,15 @@
     </style>
 
     <style name="Palace.SearchView.Overlay" parent="ThemeOverlay.Material3.Search">
-        <item name="colorControlNormal">#ff0000</item>
-        <item name="android:textColor">#ff0000</item>
+
+    </style>
+
+    <!-- Legacy search view. -->
+    <style name="Palace.Legacy.SearchView" parent="Widget.AppCompat.SearchView">
+        <!-- Note: See org.thepalaceproject.theme.core.PalaceSearchView.
+             The appcompat search view utterly refuses to be styled with
+             style attributes. The replacement class does everything programmatically.
+        -->
     </style>
 
     <!--

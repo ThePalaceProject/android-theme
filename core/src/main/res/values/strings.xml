@@ -3,4 +3,5 @@
 <resources>
     <string name="contentDescriptionBack">Back</string>
     <string name="contentDescriptionLogo">Logo</string>
+    <string name="search">Search…</string>
 </resources>

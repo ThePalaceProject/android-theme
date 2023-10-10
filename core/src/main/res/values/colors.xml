@@ -22,4 +22,5 @@
     <color name="PalaceSwitchTrackColorChecked">@color/PalaceGrey0</color>
     <color name="PalaceSwitchTrackColorUnchecked">@color/PalaceGrey2</color>
     <color name="PalaceTextColor">@color/PalaceGrey0</color>
+    <color name="PalaceTextHintColor">@color/PalaceGrey2</color>
 </resources>
