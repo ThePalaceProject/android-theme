@@ -38,11 +38,11 @@
     <!-- The style for "Text buttons" -->
     <!-- https://github.com/material-components/material-components-android/blob/master/docs/components/Button.md#text-button -->
     <style name="Palace.ButtonText" parent="Widget.MaterialComponents.Button.TextButton">
-        <item name="android:drawableTint">@color/PalaceTextColor</item>
+        <item name="android:drawableTint">@color/palace_button_text_color</item>
         <item name="android:drawableTintMode">multiply</item>
         <item name="android:scrollbars">none</item>
         <item name="android:textAppearance">@style/Palace.ButtonText.Text</item>
-        <item name="android:textColor">@color/PalaceTextColor</item>
+        <item name="android:textColor">@color/palace_button_text_color</item>
     </style>
 
     <style name="Palace.ButtonText.Small" parent="Palace.ButtonText">
@@ -77,11 +77,11 @@
     </style>
 
     <style name="Palace.Button.Contained" parent="Widget.Material3.Button.UnelevatedButton">
-        <item name="android:backgroundTint">@color/PalaceButtonContainedBackgroundColor</item>
+        <item name="android:backgroundTint">@color/palace_button_contained_color</item>
         <item name="android:textAppearance">@style/Palace.ButtonContained.Text</item>
-        <item name="android:textColor">@color/PalaceButtonContainedTextColor</item>
+        <item name="android:textColor">@color/palace_button_contained_text_color</item>
         <item name="android:drawableTintMode">multiply</item>
-        <item name="android:drawableTint">@color/PalaceButtonContainedDrawableColor</item>
+        <item name="android:drawableTint">@color/palace_button_contained_text_color</item>
         <item name="android:scrollbars">none</item>
         <item name="shapeAppearance">@style/ShapeAppearance.Material3.Corner.Small</item>
     </style>
@@ -119,11 +119,11 @@
 
     <style name="Palace.Button.Outlined" parent="Widget.Material3.Button.OutlinedButton">
         <item name="android:textAppearance">@style/Palace.Button.Outlined.Text</item>
-        <item name="android:textColor">@color/PalaceTextColor</item>
+        <item name="android:textColor">@color/palace_button_outlined_text_color</item>
         <item name="android:drawableTintMode">multiply</item>
-        <item name="android:drawableTint">@color/PalaceTextColor</item>
+        <item name="android:drawableTint">@color/palace_button_outlined_text_color</item>
         <item name="android:scrollbars">none</item>
-        <item name="strokeColor">@color/PalacePrimaryForegroundColor</item>
+        <item name="strokeColor">@color/palace_button_outlined_text_color</item>
         <item name="rippleColor">#cccccc</item>
         <item name="shapeAppearance">@style/ShapeAppearance.Material3.Corner.Small</item>
     </style>

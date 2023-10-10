@@ -15,6 +15,7 @@
             android:layout_height="match_parent">
 
             <Button
+                android:id="@+id/textSmall"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
@@ -23,6 +24,7 @@
                 android:text="textSmall" />
 
             <Button
+                android:id="@+id/textMedium"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
@@ -31,6 +33,7 @@
                 android:text="textMedium" />
 
             <Button
+                android:id="@+id/textLarge"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
@@ -44,6 +47,7 @@
             android:layout_height="match_parent">
 
             <Button
+                android:id="@+id/textSmallIconL"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
@@ -53,6 +57,7 @@
                 android:text="textSmallIconL" />
 
             <Button
+                android:id="@+id/textMediumIconL"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
@@ -62,6 +67,7 @@
                 android:text="textMediumIconL" />
 
             <Button
+                android:id="@+id/textLargeIconL"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
@@ -76,6 +82,7 @@
             android:layout_height="match_parent">
 
             <Button
+                android:id="@+id/textSmallIconR"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
@@ -85,6 +92,7 @@
                 android:text="textSmallIconR" />
 
             <Button
+                android:id="@+id/textMediumIconR"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
@@ -94,6 +102,7 @@
                 android:text="textMediumIconR" />
 
             <Button
+                android:id="@+id/textLargeIconR"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
@@ -101,6 +110,20 @@
                 style="@style/Palace.ButtonText.Large"
                 android:drawableRight="@drawable/palace_cancel_24"
                 android:text="textLargeIconR" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/toggleEnable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:maxLines="1"
+                style="@style/Palace.Button.Outlined.Large"
+                android:text="Toggle Enable/Disable" />
         </TableRow>
     </TableLayout>
 

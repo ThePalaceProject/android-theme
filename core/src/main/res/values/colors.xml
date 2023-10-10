@@ -5,22 +5,40 @@
 -->
 
 <resources>
-    <color name="PalaceButtonBackgroundColor">@color/PalaceGrey3</color>
-    <color name="PalaceButtonBorderColor">@color/PalaceGrey0</color>
-    <color name="PalaceButtonContainedBackgroundColor">@color/PalaceGrey0</color>
-    <color name="PalaceButtonContainedDrawableColor">@color/PalaceGrey3</color>
-    <color name="PalaceButtonContainedTextColor">@color/PalaceGrey3</color>
-    <color name="PalaceButtonDrawableColor">@color/PalaceGrey0</color>
     <color name="PalaceDialogBackgroundColor">@color/PalaceGrey3</color>
     <color name="PalaceError">@color/PalaceRed2</color>
     <color name="PalaceMenuBackgroundColor">@color/PalaceGrey3</color>
     <color name="PalacePrimaryForegroundColor">@color/PalaceGrey0</color>
     <color name="PalaceScreenBackgroundColor">@color/PalaceGrey3</color>
+
+    <!-- Contained buttons. -->
+    <color name="PalaceButtonContainedBackgroundColor">@color/PalaceGrey0</color>
+    <color name="PalaceButtonContainedDisabledBackgroundColor">@color/PalaceGrey1</color>
+    <color name="PalaceButtonContainedDisabledTextColor">@color/PalaceGrey2</color>
+    <color name="PalaceButtonContainedTextColor">@color/PalaceGrey3</color>
+
+    <!-- Outline buttons. -->
+    <color name="PalaceButtonOutlinedBackgroundColor">@color/PalaceGrey3</color>
+    <color name="PalaceButtonOutlinedDisabledBackgroundColor">@color/PalaceGrey3</color>
+    <color name="PalaceButtonOutlinedDisabledTextColor">@color/PalaceGrey1</color>
+    <color name="PalaceButtonOutlinedTextColor">@color/PalaceGrey0</color>
+
+    <!-- Text buttons. -->
+    <color name="PalaceButtonTextBackgroundColor">@color/PalaceGrey3</color>
+    <color name="PalaceButtonTextDisabledBackgroundColor">@color/PalaceGrey3</color>
+    <color name="PalaceButtonTextDisabledTextColor">@color/PalaceGrey1</color>
+    <color name="PalaceButtonTextTextColor">@color/PalaceGrey0</color>
+
+    <!-- Status bar. -->
     <color name="PalaceStatusBarColor">@color/PalaceGrey0</color>
+
+    <!-- Switches -->
     <color name="PalaceSwitchThumbColorChecked">@color/PalaceGrey3</color>
     <color name="PalaceSwitchThumbColorUnchecked">@color/PalaceGrey0</color>
     <color name="PalaceSwitchTrackColorChecked">@color/PalaceGrey0</color>
     <color name="PalaceSwitchTrackColorUnchecked">@color/PalaceGrey2</color>
+
+    <!-- Text -->
     <color name="PalaceTextColor">@color/PalaceGrey0</color>
     <color name="PalaceTextHintColor">@color/PalaceGrey2</color>
 </resources>

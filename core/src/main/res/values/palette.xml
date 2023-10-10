@@ -10,7 +10,7 @@ and does not ascribe any semantics to the colors (such as "error", "confirm", et
     <color name="PalaceBlue1">#43BAE6</color>
 
     <color name="PalaceGrey0">#000000</color>
-    <color name="PalageGrey1">#8E8E93</color>
+    <color name="PalaceGrey1">#8E8E93</color>
     <color name="PalaceGrey2">#E9E9EA</color>
     <color name="PalaceGrey3">#FFFFFF</color>
 

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- The color used when the button is not enabled. -->
+    <item android:color="@color/PalaceButtonOutlinedDisabledTextColor" android:state_enabled="false" />
+
+    <!-- The default color. -->
+    <item android:color="@color/PalaceButtonOutlinedTextColor" />
+</selector>

@@ -17,6 +17,7 @@ class ButtonsContainedFragment : Fragment(R.layout.buttons_contained) {
   private lateinit var b6: Button
   private lateinit var b7: Button
   private lateinit var b8: Button
+  private lateinit var toggle: Button
 
   override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
     super.onViewCreated(view, savedInstanceState)
@@ -30,6 +31,7 @@ class ButtonsContainedFragment : Fragment(R.layout.buttons_contained) {
     this.b6 = view.findViewById(R.id.containedLarge)
     this.b7 = view.findViewById(R.id.containedLargeIconL)
     this.b8 = view.findViewById(R.id.containedLargeIconR)
+    this.toggle = view.findViewById(R.id.toggleEnable)
   }
 
   override fun onStart() {
@@ -44,6 +46,20 @@ class ButtonsContainedFragment : Fragment(R.layout.buttons_contained) {
     this.b6.setOnClickListener(this::onButtonClick)
     this.b7.setOnClickListener(this::onButtonClick)
     this.b8.setOnClickListener(this::onButtonClick)
+
+    this.toggle.setOnClickListener(this::onToggle)
+  }
+
+  private fun onToggle(view: View?) {
+    this.b0.isEnabled = !this.b0.isEnabled
+    this.b1.isEnabled = !this.b1.isEnabled
+    this.b2.isEnabled = !this.b2.isEnabled
+    this.b3.isEnabled = !this.b3.isEnabled
+    this.b4.isEnabled = !this.b4.isEnabled
+    this.b5.isEnabled = !this.b5.isEnabled
+    this.b6.isEnabled = !this.b6.isEnabled
+    this.b7.isEnabled = !this.b7.isEnabled
+    this.b8.isEnabled = !this.b8.isEnabled
   }
 
   private fun onButtonClick(view: View?) {

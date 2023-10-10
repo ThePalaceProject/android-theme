@@ -111,6 +111,20 @@
                 android:drawableRight="@drawable/palace_cancel_24"
                 android:text="containedLargeIconR" />
         </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/toggleEnable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:maxLines="1"
+                style="@style/Palace.Button.Outlined.Large"
+                android:text="Toggle Enable/Disable" />
+        </TableRow>
     </TableLayout>
 
 </LinearLayout>
