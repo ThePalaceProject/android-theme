@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/toggleEnable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:maxLines="1"
+        style="@style/Palace.Button.Outlined.Large"
+        android:text="Toggle Enable/Disable" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="64dp"
+        android:scrollbarAlwaysDrawVerticalTrack="true">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/defaultSmall"
+                    style="@style/Palace.Button.Outlined.Small"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:maxLines="1"
+                    android:text="defaultSmall" />
+
+                <Button
+                    android:id="@+id/defaultMedium"
+                    style="@style/Palace.Button.Outlined.Medium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:maxLines="1"
+                    android:text="defaultMedium" />
+
+                <Button
+                    android:id="@+id/defaultLarge"
+                    style="@style/Palace.Button.Outlined.Large"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:maxLines="1"
+                    android:text="defaultLarge" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/defaultSmallIconL"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:drawableLeft="@drawable/palace_create_24"
+                    android:maxLines="1"
+                    android:text="defaultSmallIconL" />
+
+                <Button
+                    android:id="@+id/defaultMediumIconL"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:drawableLeft="@drawable/palace_create_24"
+                    android:maxLines="1"
+                    android:text="defaultMediumIconL" />
+
+                <Button
+                    android:id="@+id/defaultLargeIconL"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:drawableLeft="@drawable/palace_create_24"
+                    android:maxLines="1"
+                    android:text="defaultLargeIconL" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/defaultSmallIconR"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:drawableRight="@drawable/palace_cancel_24"
+                    android:maxLines="1"
+                    android:text="defaultSmallIconR" />
+
+                <Button
+                    android:id="@+id/defaultMediumIconR"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:drawableRight="@drawable/palace_cancel_24"
+                    android:maxLines="1"
+                    android:text="defaultMediumIconR" />
+
+                <Button
+                    android:id="@+id/defaultLargeIconR"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:drawableRight="@drawable/palace_cancel_24"
+                    android:maxLines="1"
+                    android:text="defaultLargeIconR" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/containedSmall"
+                    style="@style/Palace.Button.Contained.Small"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:maxLines="1"
+                    android:text="containedSmall" />
+
+                <Button
+                    android:id="@+id/containedMedium"
+                    style="@style/Palace.Button.Contained.Medium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:maxLines="1"
+                    android:text="containedMedium" />
+
+                <Button
+                    android:id="@+id/containedLarge"
+                    style="@style/Palace.Button.Contained.Large"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:maxLines="1"
+                    android:text="containedLarge" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/containedSmallIconL"
+                    style="@style/Palace.Button.Contained.Small"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:drawableLeft="@drawable/palace_create_24"
+                    android:maxLines="1"
+                    android:text="containedSmallIconL" />
+
+                <Button
+                    android:id="@+id/containedMediumIconL"
+                    style="@style/Palace.Button.Contained.Medium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:drawableLeft="@drawable/palace_create_24"
+                    android:maxLines="1"
+                    android:text="containedMediumIconL" />
+
+                <Button
+                    android:id="@+id/containedLargeIconL"
+                    style="@style/Palace.Button.Contained.Large"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:drawableLeft="@drawable/palace_create_24"
+                    android:maxLines="1"
+                    android:text="containedLargeIconL" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/containedSmallIconR"
+                    style="@style/Palace.Button.Contained.Small"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:drawableRight="@drawable/palace_cancel_24"
+                    android:maxLines="1"
+                    android:text="containedSmallIconR" />
+
+                <Button
+                    android:id="@+id/containedMediumIconR"
+                    style="@style/Palace.Button.Contained.Medium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:drawableRight="@drawable/palace_cancel_24"
+                    android:maxLines="1"
+                    android:text="containedMediumIconR" />
+
+                <Button
+                    android:id="@+id/containedLargeIconR"
+                    style="@style/Palace.Button.Contained.Large"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:drawableRight="@drawable/palace_cancel_24"
+                    android:maxLines="1"
+                    android:text="containedLargeIconR" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/textSmall"
+                    style="@style/Palace.ButtonText.Small"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:maxLines="1"
+                    android:text="textSmall" />
+
+                <Button
+                    android:id="@+id/textMedium"
+                    style="@style/Palace.ButtonText.Medium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:maxLines="1"
+                    android:text="textMedium" />
+
+                <Button
+                    android:id="@+id/textLarge"
+                    style="@style/Palace.ButtonText.Large"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:maxLines="1"
+                    android:text="textLarge" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/textSmallIconL"
+                    style="@style/Palace.ButtonText.Small"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:drawableLeft="@drawable/palace_create_24"
+                    android:maxLines="1"
+                    android:text="textSmallIconL" />
+
+                <Button
+                    android:id="@+id/textMediumIconL"
+                    style="@style/Palace.ButtonText.Medium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:drawableLeft="@drawable/palace_create_24"
+                    android:maxLines="1"
+                    android:text="textMediumIconL" />
+
+                <Button
+                    android:id="@+id/textLargeIconL"
+                    style="@style/Palace.ButtonText.Large"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:drawableLeft="@drawable/palace_create_24"
+                    android:maxLines="1"
+                    android:text="textLargeIconL" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/textSmallIconR"
+                    style="@style/Palace.ButtonText.Small"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:drawableRight="@drawable/palace_cancel_24"
+                    android:maxLines="1"
+                    android:text="textSmallIconR" />
+
+                <Button
+                    android:id="@+id/textMediumIconR"
+                    style="@style/Palace.ButtonText.Medium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:drawableRight="@drawable/palace_cancel_24"
+                    android:maxLines="1"
+                    android:text="textMediumIconR" />
+
+                <Button
+                    android:id="@+id/textLargeIconR"
+                    style="@style/Palace.ButtonText.Large"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:drawableRight="@drawable/palace_cancel_24"
+                    android:maxLines="1"
+                    android:text="textLargeIconR" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/outlinedSmall"
+                    style="@style/Palace.Button.Outlined.Small"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:maxLines="1"
+                    android:text="outlinedSmall" />
+
+                <Button
+                    android:id="@+id/outlinedMedium"
+                    style="@style/Palace.Button.Outlined.Medium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:maxLines="1"
+                    android:text="outlinedMedium" />
+
+                <Button
+                    android:id="@+id/outlinedLarge"
+                    style="@style/Palace.Button.Outlined.Large"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:maxLines="1"
+                    android:text="outlinedLarge" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/outlinedSmallIconL"
+                    style="@style/Palace.Button.Outlined.Small"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:drawableLeft="@drawable/palace_create_24"
+                    android:maxLines="1"
+                    android:text="outlinedSmallIconL" />
+
+                <Button
+                    android:id="@+id/outlinedMediumIconL"
+                    style="@style/Palace.Button.Outlined.Medium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:drawableLeft="@drawable/palace_create_24"
+                    android:maxLines="1"
+                    android:text="outlinedMediumIconL" />
+
+                <Button
+                    android:id="@+id/outlinedLargeIconL"
+                    style="@style/Palace.Button.Outlined.Large"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:drawableLeft="@drawable/palace_create_24"
+                    android:maxLines="1"
+                    android:text="outlinedLargeIconL" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/outlinedSmallIconR"
+                    style="@style/Palace.Button.Outlined.Small"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:drawableRight="@drawable/palace_cancel_24"
+                    android:maxLines="1"
+                    android:text="outlinedSmallIconR" />
+
+                <Button
+                    android:id="@+id/outlinedMediumIconR"
+                    style="@style/Palace.Button.Outlined.Medium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:drawableRight="@drawable/palace_cancel_24"
+                    android:maxLines="1"
+                    android:text="outlinedMediumIconR" />
+
+                <Button
+                    android:id="@+id/outlinedLargeIconR"
+                    style="@style/Palace.Button.Outlined.Large"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:drawableRight="@drawable/palace_cancel_24"
+                    android:maxLines="1"
+                    android:text="outlinedLargeIconR" />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+
+</LinearLayout>

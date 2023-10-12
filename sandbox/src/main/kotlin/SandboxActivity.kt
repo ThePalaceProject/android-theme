@@ -13,12 +13,8 @@ class SandboxActivity : AppCompatActivity(R.layout.sandbox) {
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
 
-    val buttonsOutlinedFragment =
-      ButtonsOutlinedFragment()
-    val buttonsContainedFragment =
-      ButtonsContainedFragment()
-    val buttonsTextFragment =
-      ButtonsTextFragment()
+    val buttonsFragment =
+      ButtonsFragment()
     val otherFragment =
       OtherFragment()
     val tabsFragment =
@@ -26,7 +22,7 @@ class SandboxActivity : AppCompatActivity(R.layout.sandbox) {
 
     if (savedInstanceState == null) {
       val fragmentTransaction: FragmentTransaction = this.supportFragmentManager.beginTransaction()
-      fragmentTransaction.replace(R.id.sandboxFragmentContainer, buttonsContainedFragment).commit()
+      fragmentTransaction.replace(R.id.sandboxFragmentContainer, buttonsFragment).commit()
     }
 
     this.bottomNavigationView =
@@ -35,19 +31,9 @@ class SandboxActivity : AppCompatActivity(R.layout.sandbox) {
     this.bottomNavigationView.setOnItemSelectedListener { item ->
       val fragmentManager: FragmentManager = this.supportFragmentManager
       return@setOnItemSelectedListener when (item.itemId) {
-        R.id.navButtonsOutlined -> {
+        R.id.navButtons -> {
           val fragmentTransaction: FragmentTransaction = fragmentManager.beginTransaction()
-          fragmentTransaction.replace(R.id.sandboxFragmentContainer, buttonsOutlinedFragment).commit()
-          true
-        }
-        R.id.navButtonsContained -> {
-          val fragmentTransaction: FragmentTransaction = fragmentManager.beginTransaction()
-          fragmentTransaction.replace(R.id.sandboxFragmentContainer, buttonsContainedFragment).commit()
-          true
-        }
-        R.id.navButtonsText -> {
-          val fragmentTransaction: FragmentTransaction = fragmentManager.beginTransaction()
-          fragmentTransaction.replace(R.id.sandboxFragmentContainer, buttonsTextFragment).commit()
+          fragmentTransaction.replace(R.id.sandboxFragmentContainer, buttonsFragment).commit()
           true
         }
         R.id.navOther -> {
