@@ -35,6 +35,43 @@
         <item name="colorPrimary">@color/PalacePrimaryForegroundColor</item>
     </style>
 
+    <!-- Inverted variants for display on inverse background areas. -->
+    <style name="Palace.CircularProgressIndicator.Inverted" parent="Widget.Material3.CircularProgressIndicator">
+        <item name="materialThemeOverlay">@style/Palace.CircularProgressIndicator.Overlay.Inverted</item>
+        <item name="android:indeterminateTint">@color/PalaceTextInvertedColor</item>
+        <item name="android:progressTint">@color/PalaceTextInvertedColor</item>
+    </style>
+
+    <style name="Palace.CircularProgressIndicator.Overlay.Inverted" parent="">
+        <item name="colorPrimary">@color/PalaceTextInvertedColor</item>
+        <item name="android:indeterminateTint">@color/PalaceTextInvertedColor</item>
+        <item name="android:progressTint">@color/PalaceTextInvertedColor</item>
+    </style>
+
+    <style name="Palace.LinearProgressIndicator.Inverted" parent="Widget.Material3.LinearProgressIndicator">
+        <item name="materialThemeOverlay">@style/Palace.LinearProgressIndicator.Overlay.Inverted</item>
+        <item name="android:progressTint">@color/PalaceTextInvertedColor</item>
+        <item name="android:progressBackgroundTint">@color/PalaceTextInvertedColor</item>
+    </style>
+
+    <style name="Palace.LinearProgressIndicator.Overlay.Inverted" parent="">
+        <item name="colorPrimary">@color/PalaceTextInvertedColor</item>
+        <item name="android:progressTint">@color/PalaceTextInvertedColor</item>
+        <item name="android:progressBackgroundTint">@color/PalaceTextInvertedColor</item>
+    </style>
+
+    <style name="Palace.Legacy.CircularProgressIndicator.Inverted" parent="Widget.AppCompat.ProgressBar">
+        <item name="android:progressTint">@color/PalaceTextInvertedColor</item>
+        <item name="android:progressBackgroundTint">@color/PalaceTextInvertedColor</item>
+        <item name="android:indeterminateTint">@color/PalaceTextInvertedColor</item>
+    </style>
+
+    <style name="Palace.Legacy.LinearProgressIndicator.Inverted" parent="Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="android:progressTint">@color/PalaceTextInvertedColor</item>
+        <item name="android:progressBackgroundTint">@color/PalaceTextInvertedColor</item>
+        <item name="android:indeterminateTint">@color/PalaceTextInvertedColor</item>
+    </style>
+
     <!-- The style for "Text buttons" -->
     <!-- https://github.com/material-components/material-components-android/blob/master/docs/components/Button.md#text-button -->
     <style name="Palace.ButtonText" parent="Widget.MaterialComponents.Button.TextButton">
