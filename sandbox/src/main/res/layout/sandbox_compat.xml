@@ -18,7 +18,7 @@
 
             <androidx.appcompat.widget.Toolbar
                 android:layout_width="match_parent"
-                android:layout_height="64dp"
+                android:layout_height="@dimen/PalaceToolbarHeight"
                 app:title="Sandbox"
                 app:menu="@menu/example"
                 android:theme="@style/Palace.Legacy.ToolbarTheme"

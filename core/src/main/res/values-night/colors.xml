@@ -10,6 +10,7 @@
     <color name="PalaceMenuBackgroundColor">#202020</color>
     <color name="PalacePrimaryForegroundColor">@color/PalaceGrey3</color>
     <color name="PalaceScreenBackgroundColor">@color/PalaceGrey0</color>
+    <color name="PalaceInvertedBackgroundColor">@color/PalaceGrey3</color>
 
     <!-- Contained buttons. -->
     <color name="PalaceButtonContainedBackgroundColor">@color/PalaceGrey3</color>
@@ -41,4 +42,8 @@
     <!-- Text -->
     <color name="PalaceTextColor">@color/PalaceGrey3</color>
     <color name="PalaceTextHintColor">@color/PalaceGrey2</color>
+    <color name="PalaceTextInvertedColor">@color/PalaceGrey0</color>
+
+    <!-- Dividers -->
+    <color name="PalaceDividerColor">@color/PalaceGrey1</color>
 </resources>

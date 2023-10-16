@@ -119,6 +119,7 @@
 
     <style name="Palace.Button.Outlined" parent="Widget.Material3.Button.OutlinedButton">
         <item name="android:textAppearance">@style/Palace.Button.Outlined.Text</item>
+        <item name="android:backgroundTint">@color/palace_button_outlined_color</item>
         <item name="android:textColor">@color/palace_button_outlined_text_color</item>
         <item name="android:drawableTintMode">multiply</item>
         <item name="android:drawableTint">@color/palace_button_outlined_text_color</item>
