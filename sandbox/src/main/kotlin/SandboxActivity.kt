@@ -19,6 +19,8 @@ class SandboxActivity : AppCompatActivity(R.layout.sandbox) {
       OtherFragment()
     val tabsFragment =
       TabsFragment()
+    val tabbedButtonsFragment =
+      TabbedButtonsFragment()
 
     if (savedInstanceState == null) {
       val fragmentTransaction: FragmentTransaction = this.supportFragmentManager.beginTransaction()
@@ -44,6 +46,11 @@ class SandboxActivity : AppCompatActivity(R.layout.sandbox) {
         R.id.navTabs -> {
           val fragmentTransaction: FragmentTransaction = fragmentManager.beginTransaction()
           fragmentTransaction.replace(R.id.sandboxFragmentContainer, tabsFragment).commit()
+          true
+        }
+        R.id.navTabbedButtons -> {
+          val fragmentTransaction: FragmentTransaction = fragmentManager.beginTransaction()
+          fragmentTransaction.replace(R.id.sandboxFragmentContainer, tabbedButtonsFragment).commit()
           true
         }
         else -> {

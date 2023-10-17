@@ -17,4 +17,9 @@
         android:icon="@drawable/baseline_table_chart_24"
         android:title="Tabs" />
 
+    <item
+        android:id="@+id/navTabbedButtons"
+        android:icon="@drawable/baseline_table_chart_24"
+        android:title="Tabbed Buttons" />
+
 </menu>

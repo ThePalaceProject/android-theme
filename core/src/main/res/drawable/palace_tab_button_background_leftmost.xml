@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_enabled="false">
+        <shape android:shape="rectangle">
+            <corners android:bottomRightRadius="0dp" android:radius="@dimen/PalaceTabButtonCornerRadius" android:topRightRadius="0dp" />
+            <solid android:color="@color/PalaceScreenBackgroundColor" />
+            <stroke android:width="@dimen/PalaceTabButtonStrokeThickness" android:color="@color/PalaceButtonOutlinedDisabledTextColor" />
+        </shape>
+    </item>
+
+    <item android:state_checked="true">
+        <shape android:shape="rectangle">
+            <corners android:bottomRightRadius="0dp" android:radius="@dimen/PalaceTabButtonCornerRadius" android:topRightRadius="0dp" />
+            <solid android:color="@color/PalaceInvertedBackgroundColor" />
+            <stroke android:width="@dimen/PalaceTabButtonStrokeThickness" android:color="@color/PalaceInvertedBackgroundColor" />
+        </shape>
+    </item>
+
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:bottomRightRadius="0dp" android:radius="@dimen/PalaceTabButtonCornerRadius" android:topRightRadius="0dp" />
+            <solid android:color="@color/PalaceScreenBackgroundColor" />
+            <stroke android:width="@dimen/PalaceTabButtonStrokeThickness" android:color="@color/PalacePrimaryForegroundColor" />
+        </shape>
+    </item>
+
+</selector>
