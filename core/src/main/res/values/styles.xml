@@ -83,27 +83,33 @@
     </style>
 
     <style name="Palace.ButtonText.Small" parent="Palace.ButtonText">
+        <!--
         <item name="android:paddingBottom">8dp</item>
         <item name="android:paddingLeft">12dp</item>
         <item name="android:paddingRight">12dp</item>
         <item name="android:paddingTop">8dp</item>
         <item name="android:drawablePadding">8dp</item>
+        -->
     </style>
 
     <style name="Palace.ButtonText.Medium" parent="Palace.ButtonText">
+        <!--
         <item name="android:paddingBottom">12dp</item>
         <item name="android:paddingLeft">20dp</item>
         <item name="android:paddingRight">20dp</item>
         <item name="android:paddingTop">12dp</item>
         <item name="android:drawablePadding">12dp</item>
+        -->
     </style>
 
     <style name="Palace.ButtonText.Large" parent="Palace.ButtonText">
+        <!--
         <item name="android:paddingBottom">16dp</item>
         <item name="android:paddingLeft">24dp</item>
         <item name="android:paddingRight">24dp</item>
         <item name="android:paddingTop">16dp</item>
         <item name="android:drawablePadding">16dp</item>
+        -->
     </style>
 
     <!-- The style for "Contained buttons" -->
@@ -124,27 +130,33 @@
     </style>
 
     <style name="Palace.Button.Contained.Small" parent="Palace.Button.Contained">
+        <!--
         <item name="android:paddingBottom">8dp</item>
         <item name="android:paddingLeft">12dp</item>
         <item name="android:paddingRight">12dp</item>
         <item name="android:paddingTop">8dp</item>
         <item name="android:drawablePadding">8dp</item>
+        -->
     </style>
 
     <style name="Palace.Button.Contained.Medium" parent="Palace.Button.Contained">
+        <!--
         <item name="android:paddingBottom">12dp</item>
         <item name="android:paddingLeft">20dp</item>
         <item name="android:paddingRight">20dp</item>
         <item name="android:paddingTop">12dp</item>
         <item name="android:drawablePadding">12dp</item>
+        -->
     </style>
 
     <style name="Palace.Button.Contained.Large" parent="Palace.Button.Contained">
+        <!--
         <item name="android:paddingBottom">16dp</item>
         <item name="android:paddingLeft">24dp</item>
         <item name="android:paddingRight">24dp</item>
         <item name="android:paddingTop">16dp</item>
         <item name="android:drawablePadding">16dp</item>
+        -->
     </style>
 
     <!-- The style for "Outlined buttons" -->
@@ -167,27 +179,33 @@
     </style>
 
     <style name="Palace.Button.Outlined.Small" parent="Palace.Button.Outlined">
+        <!--
         <item name="android:paddingBottom">8dp</item>
         <item name="android:paddingLeft">12dp</item>
         <item name="android:paddingRight">12dp</item>
         <item name="android:paddingTop">8dp</item>
         <item name="android:drawablePadding">8dp</item>
+        -->
     </style>
 
     <style name="Palace.Button.Outlined.Medium" parent="Palace.Button.Outlined">
+        <!--
         <item name="android:paddingBottom">12dp</item>
         <item name="android:paddingLeft">20dp</item>
         <item name="android:paddingRight">20dp</item>
         <item name="android:paddingTop">12dp</item>
         <item name="android:drawablePadding">12dp</item>
+        -->
     </style>
 
     <style name="Palace.Button.Outlined.Large" parent="Palace.Button.Outlined">
+        <!--
         <item name="android:paddingBottom">16dp</item>
         <item name="android:paddingLeft">24dp</item>
         <item name="android:paddingRight">24dp</item>
         <item name="android:paddingTop">16dp</item>
         <item name="android:drawablePadding">16dp</item>
+        -->
     </style>
 
     <!-- The bottom navigation view. -->
