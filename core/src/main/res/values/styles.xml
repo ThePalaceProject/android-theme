@@ -80,6 +80,7 @@
         <item name="android:scrollbars">none</item>
         <item name="android:textAppearance">@style/Palace.ButtonText.Text</item>
         <item name="android:textColor">@color/palace_button_text_color</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.Material3.Corner.Small</item>
     </style>
 
     <style name="Palace.ButtonText.Small" parent="Palace.ButtonText">
