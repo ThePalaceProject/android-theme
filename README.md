@@ -2,8 +2,8 @@ android-theme
 ============
 
 [![Build Status](https://img.shields.io/github/actions/workflow/status/ThePalaceProject/android-theme/.github%2Fworkflows%2Fandroid-main.yml?style=flat-square)](https://github.com/ThePalaceProject/android-theme/actions?query=workflow%3A%22Android+CI+%28Authenticated%29%22)
-[![Maven Central](https://img.shields.io/maven-central/v/org.thepalaceproject.theme/org.thepalaceproject.theme.core?style=flat-square)](https://repo2.maven.org/maven2/org/thepalaceproject/theme)
-[![Maven Central (Snapshots)](https://img.shields.io/nexus/s/org.thepalaceproject.theme/org.thepalaceproject.theme.core?server=https%3A%2F%2Fs01.oss.sonatype.org%2F)](https://oss.sonatype.org/content/repositories/snapshots/org/thepalaceproject/http/)
+[![Maven Central](https://img.shields.io/maven-central/v/org.thepalaceproject.theme/org.thepalaceproject.theme.core?style=flat-square)](https://repo1.maven.org/maven2/org/thepalaceproject/theme)
+[![Maven Central (Snapshots)](https://img.shields.io/nexus/s/org.thepalaceproject.theme/org.thepalaceproject.theme.core?server=https%3A%2F%2Fs01.oss.sonatype.org%2F)](https://oss.sonatype.org/content/repositories/snapshots/org/thepalaceproject/theme/)
 
 The Palace Project's Android theme.
 
