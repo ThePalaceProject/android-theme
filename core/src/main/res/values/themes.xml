@@ -34,6 +34,7 @@
         <item name="searchViewStyle">@style/Palace.SearchView</item>
         <item name="switchStyle">@style/Palace.Switch</item>
         <item name="tabStyle">@style/Palace.TabLayout</item>
+        <item name="textInputStyle">@style/Palace.TextInputLayout</item>
         <item name="toolbarStyle">@style/Palace.Toolbar</item>
     </style>
 
@@ -69,6 +70,7 @@
         <item name="searchViewStyle">@style/Palace.SearchView</item>
         <item name="switchStyle">@style/Palace.Switch</item>
         <item name="tabStyle">@style/Palace.TabLayout</item>
+        <item name="textInputStyle">@style/Palace.TextInputLayout</item>
         <item name="toolbarStyle">@style/Palace.Toolbar</item>
     </style>
 

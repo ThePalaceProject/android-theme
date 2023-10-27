@@ -375,4 +375,21 @@
         <item name="actionMenuTextColor">#ff00ff</item>
     </style>
 
+    <!-- Text fields. -->
+
+    <style name="Palace.TextInputEditText" parent="Widget.Material3.TextInputEditText.OutlinedBox">
+        <item name="colorError">@color/PalaceRed2</item>
+    </style>
+
+    <style name="Palace.TextInputLayout" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="materialThemeOverlay">@style/Palace.TextInputLayout.Overlay</item>
+    </style>
+
+    <style name="Palace.TextInputLayout.Overlay" parent="">
+        <item name="colorError">@color/PalaceRed2</item>
+        <item name="colorOutline">@color/PalaceTextColor</item>
+        <item name="colorPrimary">@color/PalaceTextColor</item>
+        <item name="editTextStyle">@style/Palace.TextInputEditText</item>
+    </style>
+
 </resources>
