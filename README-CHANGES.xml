@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <c:changelog project="org.thepalaceproject.theme" xmlns:c="urn:com.io7m.changelog:4.0">
   <c:releases>
-    <c:release date="2023-10-23T11:30:11+00:00" is-open="true" ticket-system="org.thepalaceproject.jira" version="1.0.0">
+    <c:release date="2023-10-27T15:37:43+00:00" is-open="false" ticket-system="org.thepalaceproject.jira" version="1.0.0">
       <c:changes/>
     </c:release>
   </c:releases>
