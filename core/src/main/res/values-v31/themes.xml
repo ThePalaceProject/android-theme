@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources>
+    <style name="PalaceTheme" parent="PalaceTheme.WithoutActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+
+        <!-- The theme to set after the default splash screen is dismissed-->
+        <item name="postSplashScreenTheme">@style/PalaceTheme.WithoutActionBar</item>
+    </style>
+
     <style name="PalaceTheme.WithoutActionBar" parent="Theme.Material3.DayNight.NoActionBar">
         <item name="android:windowBackground">@color/PalaceScreenBackgroundColor</item>
         <item name="android:fontFamily">@font/open_sans_regular</item>
