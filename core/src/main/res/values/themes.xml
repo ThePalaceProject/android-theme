@@ -2,7 +2,8 @@
 
 <resources>
 
-    <style name="PalaceTheme" parent="PalaceTheme.WithoutActionBar" />
+    <!-- A no-op theme used on devices that are on less than API 31. -->
+    <style name="PalaceTheme.Splash" parent="PalaceTheme.WithoutActionBar" />
 
     <style name="PalaceTheme.WithActionBar" parent="Theme.Material3.DayNight">
         <item name="android:windowBackground">@color/PalaceScreenBackgroundColor</item>

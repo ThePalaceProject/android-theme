@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources>
-    <style name="PalaceTheme" parent="PalaceTheme.WithoutActionBar">
+
+    <!-- The theme used on the mandatory device splash screen. We use "windowIsTranslucent" to
+         make it invisible, because we have our own splash screen, and then switch to the real
+         theme with postSplashScreenTheme. -->
+    <style name="PalaceTheme.Splash" parent="PalaceTheme.WithoutActionBar">
         <item name="android:windowIsTranslucent">true</item>
 
         <!-- The theme to set after the default splash screen is dismissed-->
