@@ -4,9 +4,9 @@
     <c:release date="2023-10-27T00:00:00+00:00" is-open="false" ticket-system="org.thepalaceproject.jira" version="1.0.0">
       <c:changes/>
     </c:release>
-    <c:release date="2023-10-30T12:26:04+00:00" is-open="true" ticket-system="org.thepalaceproject.jira" version="1.1.0">
+    <c:release date="2023-10-31T19:57:33+00:00" is-open="false" ticket-system="org.thepalaceproject.jira" version="1.1.0">
       <c:changes>
-        <c:change date="2023-10-30T12:26:04+00:00" summary="Removed the Android 12+ devices default splash screen."/>
+        <c:change date="2023-10-30T00:00:00+00:00" summary="Removed the Android 12+ devices default splash screen."/>
       </c:changes>
     </c:release>
   </c:releases>
