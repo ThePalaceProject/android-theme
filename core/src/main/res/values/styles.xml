@@ -392,4 +392,14 @@
         <item name="editTextStyle">@style/Palace.TextInputEditText</item>
     </style>
 
+    <!-- Chips. -->
+
+    <style name="Palace.Chip" parent="Widget.Material3.Chip.Input">
+        <item name="chipStartPadding">8dp</item>
+        <item name="chipEndPadding">8dp</item>
+        <item name="chipBackgroundColor">#e9e9ea</item>
+        <item name="chipMinHeight">32dp</item>
+        <item name="chipStrokeWidth">0dp</item>
+    </style>
+
 </resources>

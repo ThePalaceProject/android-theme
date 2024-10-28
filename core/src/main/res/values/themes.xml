@@ -39,6 +39,7 @@
         <item name="tabStyle">@style/Palace.TabLayout</item>
         <item name="textInputStyle">@style/Palace.TextInputLayout</item>
         <item name="toolbarStyle">@style/Palace.Toolbar</item>
+        <item name="chipStyle">@style/Palace.Chip</item>
     </style>
 
     <style name="PalaceTheme.WithoutActionBar" parent="Theme.Material3.DayNight.NoActionBar">
@@ -75,6 +76,7 @@
         <item name="tabStyle">@style/Palace.TabLayout</item>
         <item name="textInputStyle">@style/Palace.TextInputLayout</item>
         <item name="toolbarStyle">@style/Palace.Toolbar</item>
+        <item name="chipStyle">@style/Palace.Chip</item>
     </style>
 
 </resources>

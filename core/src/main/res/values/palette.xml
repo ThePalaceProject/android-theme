@@ -23,4 +23,7 @@ and does not ascribe any semantics to the colors (such as "error", "confirm", et
     <color name="PalaceRed1">#B0220C</color>
     <color name="PalaceRed2">#F2533A</color>
     <color name="PalaceRed3">#FFAFA2</color>
+
+    <!-- See PP-918. -->
+    <color name="PalacePaleGrey0">#F3F2F8</color>
 </resources>
