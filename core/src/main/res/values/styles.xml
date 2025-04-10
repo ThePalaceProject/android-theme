@@ -263,6 +263,15 @@
         <item name="android:textColor">@color/PalaceTextColor</item>
     </style>
 
+    <!-- Bottom sheet dialogs -->
+    <style name="Palace.BottomSheetDialog.Overlay" parent="ThemeOverlay.Material3.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/Palace.BottomSheetDialog</item>
+    </style>
+
+    <style name="Palace.BottomSheetDialog" parent="Widget.Material3.BottomSheet.Modal">
+        <item name="backgroundTint">@color/PalaceDialogBackgroundColor</item>
+    </style>
+
     <!-- Checkboxes. -->
     <style name="Palace.Checkbox" parent="Widget.Material3.CompoundButton.CheckBox">
         <item name="materialThemeOverlay">@style/Palace.Checkbox.Overlay</item>

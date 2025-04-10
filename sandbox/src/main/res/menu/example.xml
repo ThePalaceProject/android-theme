@@ -10,7 +10,9 @@
         app:actionViewClass="org.thepalaceproject.theme.core.PalaceSearchView"
         app:showAsAction="always" />
 
-    <item android:title="Menu 0" />
+    <item
+        android:id="@+id/menuBottomSheet"
+        android:title="Bottom Sheet!" />
 
     <item android:title="Menu 1" />
 

@@ -5,10 +5,12 @@ import android.view.View
 import android.widget.Button
 import androidx.appcompat.app.AlertDialog
 import androidx.fragment.app.Fragment
+import com.google.android.material.appbar.MaterialToolbar
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 
 class ButtonsFragment : Fragment(R.layout.buttons) {
 
+  private lateinit var toolbar: MaterialToolbar
   private lateinit var buttons: List<Button>
   private lateinit var toggle: Button
 
@@ -57,7 +59,8 @@ class ButtonsFragment : Fragment(R.layout.buttons) {
       view.findViewById(R.id.textLargeIconR),
     )
 
-    this.toggle = view.findViewById(R.id.toggleEnable)
+    this.toggle =
+      view.findViewById(R.id.toggleEnable)
   }
 
   override fun onStart() {
@@ -90,6 +93,9 @@ class ButtonsFragment : Fragment(R.layout.buttons) {
       .setMessage("You rang?")
       .setNegativeButton("No!") { dialog, which ->
         dialog.dismiss()
+
+        val bottom = BottomSheet()
+        bottom.show(this.parentFragmentManager, "BOTTOM_SHEET")
       }
       .setPositiveButton("Yes!") { dialog, which ->
         dialog.dismiss()

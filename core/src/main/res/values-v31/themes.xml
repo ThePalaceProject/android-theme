@@ -47,6 +47,7 @@
         <item name="textInputStyle">@style/Palace.TextInputLayout</item>
         <item name="toolbarStyle">@style/Palace.Toolbar</item>
         <item name="chipStyle">@style/Palace.Chip</item>
+        <item name="bottomSheetDialogTheme">@style/Palace.BottomSheetDialog.Overlay</item>
 
         <item name="android:windowSplashScreenAnimatedIcon">@drawable/palace_splash_animated</item>
     </style>
@@ -86,6 +87,7 @@
         <item name="textInputStyle">@style/Palace.TextInputLayout</item>
         <item name="toolbarStyle">@style/Palace.Toolbar</item>
         <item name="chipStyle">@style/Palace.Chip</item>
+        <item name="bottomSheetDialogTheme">@style/Palace.BottomSheetDialog.Overlay</item>
 
         <item name="android:windowSplashScreenAnimatedIcon">@drawable/palace_splash_animated</item>
     </style>

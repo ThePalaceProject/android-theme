@@ -40,6 +40,7 @@
         <item name="textInputStyle">@style/Palace.TextInputLayout</item>
         <item name="toolbarStyle">@style/Palace.Toolbar</item>
         <item name="chipStyle">@style/Palace.Chip</item>
+        <item name="bottomSheetDialogTheme">@style/Palace.BottomSheetDialog.Overlay</item>
     </style>
 
     <style name="PalaceTheme.WithoutActionBar" parent="Theme.Material3.DayNight.NoActionBar">
@@ -77,6 +78,7 @@
         <item name="textInputStyle">@style/Palace.TextInputLayout</item>
         <item name="toolbarStyle">@style/Palace.Toolbar</item>
         <item name="chipStyle">@style/Palace.Chip</item>
+        <item name="bottomSheetDialogTheme">@style/Palace.BottomSheetDialog.Overlay</item>
     </style>
 
 </resources>
