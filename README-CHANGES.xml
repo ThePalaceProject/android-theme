@@ -9,8 +9,17 @@
         <c:change date="2023-10-30T00:00:00+00:00" summary="Removed the Android 12+ devices default splash screen."/>
       </c:changes>
     </c:release>
-    <c:release date="2024-11-18T18:34:41+00:00" is-open="false" ticket-system="org.thepalaceproject.jira" version="1.2.0">
+    <c:release date="2024-11-18T00:00:00+00:00" is-open="false" ticket-system="org.thepalaceproject.jira" version="1.2.0">
       <c:changes/>
+    </c:release>
+    <c:release date="2025-04-10T14:34:31+00:00" is-open="true" ticket-system="org.thepalaceproject.jira" version="1.3.0">
+      <c:changes>
+        <c:change date="2025-04-10T14:34:31+00:00" summary="Fix bottom sheet dark mode colours.">
+          <c:tickets>
+            <c:ticket id="PP-2374"/>
+          </c:tickets>
+        </c:change>
+      </c:changes>
     </c:release>
   </c:releases>
   <c:ticket-systems>
