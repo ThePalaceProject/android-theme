@@ -13,6 +13,12 @@
     </style>
 
     <style name="PalaceTheme.WithoutActionBar" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Disable elevation-based color changes. Without this, white buttons will appear -->
+        <!-- grey if a non-zero elevation is used. -->
+        <item name="elevationOverlayEnabled">false</item>
+        <item name="elevationOverlayColor">@android:color/transparent</item>
+        <item name="materialThemeOverlay">@null</item>
+
         <item name="android:windowBackground">@color/PalaceScreenBackgroundColor</item>
         <item name="android:fontFamily">@font/open_sans_regular</item>
 
@@ -53,6 +59,12 @@
     </style>
 
     <style name="PalaceTheme.WithActionBar" parent="Theme.Material3.DayNight">
+        <!-- Disable elevation-based color changes. Without this, white buttons will appear -->
+        <!-- grey if a non-zero elevation is used. -->
+        <item name="elevationOverlayEnabled">false</item>
+        <item name="elevationOverlayColor">@android:color/transparent</item>
+        <item name="materialThemeOverlay">@null</item>
+
         <item name="android:windowBackground">@color/PalaceScreenBackgroundColor</item>
         <item name="android:fontFamily">@font/open_sans_regular</item>
 
