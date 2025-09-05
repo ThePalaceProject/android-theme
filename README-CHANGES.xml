@@ -21,9 +21,9 @@
         </c:change>
       </c:changes>
     </c:release>
-    <c:release date="2025-05-08T16:40:00+00:00" is-open="true" ticket-system="org.thepalaceproject.jira" version="1.4.0">
+    <c:release date="2025-09-05T12:19:52+00:00" is-open="false" ticket-system="org.thepalaceproject.jira" version="1.5.0">
       <c:changes>
-        <c:change date="2025-05-08T16:40:00+00:00" summary="Turn off elevation view darkening."/>
+        <c:change date="2025-05-08T00:00:00+00:00" summary="Turn off elevation view darkening."/>
       </c:changes>
     </c:release>
   </c:releases>
