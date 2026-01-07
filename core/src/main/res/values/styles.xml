@@ -252,6 +252,7 @@
         <item name="colorSurface">@color/PalaceDialogBackgroundColor</item>
         <item name="colorOnSurface">@color/PalaceTextColor</item>
         <item name="buttonBarPositiveButtonStyle">@style/Palace.MaterialAlertDialog.Button</item>
+        <item name="buttonBarNeutralButtonStyle">@style/Palace.MaterialAlertDialog.Button</item>
         <item name="buttonBarNegativeButtonStyle">@style/Palace.MaterialAlertDialog.Button</item>
     </style>
 
