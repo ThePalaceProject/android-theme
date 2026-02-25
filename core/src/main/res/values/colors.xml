@@ -13,6 +13,10 @@
     <color name="PalaceInvertedBackgroundColor">@color/PalaceGrey0</color>
     <color name="PalaceSecondaryBackgroundColor">@color/PalacePaleGrey0</color>
 
+    <color name="PalacePrimaryForegroundColor_Alpha25">@color/PalaceGrey0_Alpha25</color>
+    <color name="PalacePrimaryForegroundColor_Alpha50">@color/PalaceGrey0_Alpha50</color>
+    <color name="PalacePrimaryForegroundColor_Alpha75">@color/PalaceGrey0_Alpha75</color>
+
     <!-- Contained buttons. -->
     <color name="PalaceButtonContainedBackgroundColor">@color/PalaceGrey0</color>
     <color name="PalaceButtonContainedDisabledBackgroundColor">@color/PalaceGrey1</color>

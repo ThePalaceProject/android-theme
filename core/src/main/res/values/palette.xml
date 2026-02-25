@@ -26,4 +26,12 @@ and does not ascribe any semantics to the colors (such as "error", "confirm", et
 
     <!-- See PP-918. -->
     <color name="PalacePaleGrey0">#F3F2F8</color>
+
+    <!-- Translucent variants of colors. -->
+    <color name="PalaceGrey0_Alpha25">#3f000000</color>
+    <color name="PalaceGrey0_Alpha50">#7f000000</color>
+    <color name="PalaceGrey0_Alpha75">#be000000</color>
+    <color name="PalaceGrey3_Alpha25">#3fffffff</color>
+    <color name="PalaceGrey3_Alpha50">#7fffffff</color>
+    <color name="PalaceGrey3_Alpha75">#beffffff</color>
 </resources>
