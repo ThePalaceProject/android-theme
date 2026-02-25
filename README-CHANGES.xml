@@ -29,9 +29,9 @@
     <c:release date="2026-02-25T00:00:00+00:00" is-open="false" ticket-system="org.thepalaceproject.jira" version="1.6.0">
       <c:changes/>
     </c:release>
-    <c:release date="2026-02-25T17:00:37+00:00" is-open="true" ticket-system="org.thepalaceproject.jira" version="1.7.0">
+    <c:release date="2026-02-25T17:09:02+00:00" is-open="false" ticket-system="org.thepalaceproject.jira" version="1.7.0">
       <c:changes>
-        <c:change date="2026-02-25T17:00:37+00:00" summary="Add translucent color variants.">
+        <c:change date="2026-02-25T00:00:00+00:00" summary="Add translucent color variants.">
           <c:tickets>
             <c:ticket id="PP-3756"/>
           </c:tickets>
