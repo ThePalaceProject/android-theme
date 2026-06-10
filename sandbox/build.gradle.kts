@@ -28,7 +28,6 @@ dependencies {
     implementation(libs.androidx.datastore.android)
     implementation(libs.androidx.datastore.core.android)
     implementation(libs.androidx.datastore.core.okio)
-    implementation(libs.androidx.datastore.preferences)
     implementation(libs.androidx.datastore.preferences.core)
     implementation(libs.androidx.documentfile)
     implementation(libs.androidx.drawerlayout)
