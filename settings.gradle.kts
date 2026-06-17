@@ -21,5 +21,7 @@ dependencyResolutionManagement {
 
 rootProject.name = "org.thepalaceproject.theme"
 
+includeBuild("palace-build-conventions")
+
 include(":core")
 include(":sandbox")

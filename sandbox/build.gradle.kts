@@ -1,3 +1,7 @@
+plugins {
+    id("org.thepalaceproject.build.apk")
+}
+
 dependencies {
     coreLibraryDesugaring(libs.android.desugaring)
 

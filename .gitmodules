@@ -4,3 +4,6 @@
 [submodule ".ci"]
 	path = .ci
 	url = https://www.github.com/ThePalaceProject/android-ci
+[submodule "palace-build-conventions"]
+	path = palace-build-conventions
+	url = https://github.com/ThePalaceProject/android-build-conventions
