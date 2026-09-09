@@ -38,10 +38,13 @@
         </c:change>
       </c:changes>
     </c:release>
-    <c:release date="2026-09-09T07:44:40+00:00" is-open="true" ticket-system="org.thepalaceproject.jira" version="1.8.0">
+    <c:release date="2026-09-09T00:00:00+00:00" is-open="false" ticket-system="org.thepalaceproject.jira" version="1.8.0">
       <c:changes>
-        <c:change date="2026-09-09T07:44:40+00:00" summary="Update build system and dependency catalog."/>
+        <c:change date="2026-09-09T00:00:00+00:00" summary="Update build system and dependency catalog."/>
       </c:changes>
+    </c:release>
+    <c:release date="2026-09-09T08:01:50+00:00" is-open="true" ticket-system="org.thepalaceproject.jira" version="1.9.0">
+      <c:changes/>
     </c:release>
   </c:releases>
   <c:ticket-systems>
